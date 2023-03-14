@@ -1,4 +1,4 @@
-<p align="center"> ![larateal](https://user-images.githubusercontent.com/127891037/225124851-a0b010d3-ff8f-4b30-a1ed-c3ba1dddfdca.png)</p>
+![larateal](https://user-images.githubusercontent.com/127891037/225124851-a0b010d3-ff8f-4b30-a1ed-c3ba1dddfdca.png)
 
 
 ## About Laravel
