@@ -1,0 +1,1000 @@
+@extends('layouts.frame')
+@section('content')
+<!-- BODY START -->
+
+<div class="m-2">
+
+<div class="col-md-12 hr mb-2 mt-2">
+    <a href="" class="text-{{(inc('tema')=='dark')?'white':'dark';}}">
+        <center><i class="fa fa-font-awesome mr-2"></i><strong>FONTAWESOME</strong></center>
+    </a>
+</div>
+
+<div class="row m-2">
+
+<div class="col-md-12 mb-1 mt-1"><strong>USER / PENGGUNA</strong></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-user fa-border fa-1x mr-2'></i><strong>fa fa-user</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-user fa-border fa-1x mr-2'></i><strong>far fa-user</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-user-circle fa-border fa-1x mr-2'></i><strong>fa fa-user-circle</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-user-circle fa-border fa-1x mr-2'></i><strong>far fa-user-circle</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-user-md fa-border fa-1x mr-2'></i><strong>fa fa-user-md</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-user-plus fa-border fa-1x mr-2'></i><strong>fa fa-user-plus</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-user-times fa-border fa-1x mr-2'></i><strong>fa fa-user-times</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-user-secret fa-border fa-1x mr-2'></i><strong>fa fa-user-secret</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-users fa-border fa-1x mr-2'></i><strong>fa fa-users</strong></div></div>
+    <div class="col-md-3 bor1"><div class="m-1"><i class="fa fa-address-book fa-border fa-1x mr-2"></i><strong>fa fa-address-book</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-people-carry fa-border fa-1x mr-2'></i><strong>fa fa-people-carry</strong></div></div>
+    <div class="col-md-3 bor1"><div class="m-1"><i class="fab fa-accessible-icon fa-border fa-1x mr-2"></i><strong>fab fa-accessible-icon</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-wheelchair fa-border fa-1x mr-2'></i><strong>fa fa-wheelchair</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-child fa-border fa-1x mr-2'></i><strong>fa fa-child</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-street-view fa-border fa-1x mr-2'></i><strong>fa fa-street-view</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-napster fa-border fa-1x mr-2'></i><strong>fab fa-napster</strong></div></div>
+<div class="col-md-12 mb-1 mt-1"><strong>CRUD / EDITOR</strong></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-edit fa-border fa-1x mr-2'></i><strong>fa fa-edit</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-edit fa-border fa-1x mr-2'></i><strong>far fa-edit</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-pencil-alt fa-border fa-1x mr-2'></i><strong>fa fa-pencil-alt</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-paint-brush fa-border fa-1x mr-2'></i><strong>fa fa-paint-brush</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-trash fa-border fa-1x mr-2'></i><strong>fa fa-trash</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-trash-alt fa-border fa-1x mr-2'></i><strong>fa fa-trash-alt</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-trash-alt fa-border fa-1x mr-2'></i><strong>far fa-trash-alt</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-ban fa-border fa-1x mr-2'></i><strong>fa fa-ban</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-search fa-border fa-1x mr-2'></i><strong>fa fa-search</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-search-minus fa-border fa-1x mr-2'></i><strong>fa fa-search-minus</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-search-plus fa-border fa-1x mr-2'></i><strong>fa fa-search-plus</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-searchengin fa-border fa-1x mr-2'></i><strong>fab fa-searchengin</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-plus fa-border fa-1x mr-2'></i><strong>fa fa-plus</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-plus-circle fa-border fa-1x mr-2'></i><strong>fa fa-plus-circle</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-plus-square fa-border fa-1x mr-2'></i><strong>fa fa-plus-square</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-plus-square fa-border fa-1x mr-2'></i><strong>far fa-plus-square</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-minus fa-border fa-1x mr-2'></i><strong>fa fa-minus</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-minus-circle fa-border fa-1x mr-2'></i><strong>fa fa-minus-circle</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-minus-square fa-border fa-1x mr-2'></i><strong>fa fa-minus-square</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-minus-square fa-border fa-1x mr-2'></i><strong>far fa-minus-square</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-check fa-border fa-1x mr-2'></i><strong>fa fa-check</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-check-circle fa-border fa-1x mr-2'></i><strong>fa fa-check-circle</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-check-square fa-border fa-1x mr-2'></i><strong>fa fa-check-square</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-check-square fa-border fa-1x mr-2'></i><strong>far fa-check-square</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-times fa-border fa-1x mr-2'></i><strong>fa fa-times</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-times-circle fa-border fa-1x mr-2'></i><strong>fa fa-times-circle</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-window-close fa-border fa-1x mr-2'></i><strong>fa fa-window-close</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-cut fa-border fa-1x mr-2'></i><strong>fa fa-cut</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-expand fa-border fa-1x mr-2'></i><strong>fa fa-expand</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-expand-arrows-alt fa-border fa-1x mr-2'></i><strong>fa fa-expand-arrows-alt</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-sync fa-border fa-1x mr-2'></i><strong>fa fa-sync</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-crop fa-border fa-1x mr-2'></i><strong>fa fa-crop</strong></div></div>
+<div class="col-md-12 mb-1 mt-1"><strong>EMAIL / SURAT</strong></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-envelope fa-border fa-1x mr-2'></i><strong>fa fa-envelope</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-envelope-open fa-border fa-1x mr-2'></i><strong>fa fa-envelope-open</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-envelope fa-border fa-1x mr-2'></i><strong>far fa-envelope</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-envelope-open fa-border fa-1x mr-2'></i><strong>far fa-envelope-open</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-paper-plane fa-border fa-1x mr-2'></i><strong>fa fa-paper-plane</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-paper-plane fa-border fa-1x mr-2'></i><strong>far fa-paper-plane</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-telegram-plane fa-border fa-1x mr-2'></i><strong>fab fa-telegram-plane</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-envelope-square fa-border fa-1x mr-2'></i><strong>fa fa-envelope-square</strong></div></div>
+<div class="col-md-12 mb-1 mt-1"><strong>GENDER / JENIS KELAMIN</strong></div>   
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-female fa-border fa-1x mr-2'></i><strong>fa fa-female</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-male fa-border fa-1x mr-2'></i><strong>fa fa-male</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-venus fa-border fa-1x mr-2'></i><strong>fa fa-venus</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-mars fa-border fa-1x mr-2'></i><strong>fa fa-mars</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-venus-double fa-border fa-1x mr-2'></i><strong>fa fa-venus-double</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-venus-mars fa-border fa-1x mr-2'></i><strong>fa fa-venus-mars</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-mars-double fa-border fa-1x mr-2'></i><strong>fa fa-mars-double</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-mars-stroke fa-border fa-1x mr-2'></i><strong>fa fa-mars-stroke</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-mars-stroke-h fa-border fa-1x mr-2'></i><strong>fa fa-mars-stroke-h</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-mars-stroke-v fa-border fa-1x mr-2'></i><strong>fa fa-mars-stroke-v</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-mercury fa-border fa-1x mr-2'></i><strong>fa fa-mercury</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-transgender fa-border fa-1x mr-2'></i><strong>fa fa-transgender</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-transgender-alt fa-border fa-1x mr-2'></i><strong>fa fa-transgender-alt</strong></div></div>
+<div class="col-md-12 mb-1 mt-1"><strong>SHEET / LEMBARAN</strong></div> 
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-clone fa-border fa-1x mr-2'></i><strong>fa fa-clone</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-clone fa-border fa-1x mr-2'></i><strong>far fa-clone</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-copy fa-border fa-1x mr-2'></i><strong>fa fa-copy</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-copy fa-border fa-1x mr-2'></i><strong>far fa-copy</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-file fa-border fa-1x mr-2'></i><strong>fa fa-file</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-file fa-border fa-1x mr-2'></i><strong>far fa-file</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-file-alt fa-border fa-1x mr-2'></i><strong>fa fa-file-alt</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-file-alt fa-border fa-1x mr-2'></i><strong>far fa-file-alt</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-file-archive fa-border fa-1x mr-2'></i><strong>fa fa-file-archive</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-file-archive fa-border fa-1x mr-2'></i><strong>far fa-file-archive</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-file-audio fa-border fa-1x mr-2'></i><strong>fa fa-file-audio</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-file-audio fa-border fa-1x mr-2'></i><strong>far fa-file-audio</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-file-code fa-border fa-1x mr-2'></i><strong>fa fa-file-code</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-file-code fa-border fa-1x mr-2'></i><strong>far fa-file-code</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-file-excel fa-border fa-1x mr-2'></i><strong>fa fa-file-excel</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-file-excel fa-border fa-1x mr-2'></i><strong>far fa-file-excel</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-file-image fa-border fa-1x mr-2'></i><strong>fa fa-file-image</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-file-image fa-border fa-1x mr-2'></i><strong>far fa-file-image</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-file-pdf fa-border fa-1x mr-2'></i><strong>fa fa-file-pdf</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-file-pdf fa-border fa-1x mr-2'></i><strong>far fa-file-pdf</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-file-powerpoint fa-border fa-1x mr-2'></i><strong>fa fa-file-powerpoint</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-file-powerpoint fa-border fa-1x mr-2'></i><strong>far fa-file-powerpoint</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-file-video fa-border fa-1x mr-2'></i><strong>fa fa-file-video</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-file-video fa-border fa-1x mr-2'></i><strong>far fa-file-video</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-file-word fa-border fa-1x mr-2'></i><strong>fa fa-file-word</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-file-word fa-border fa-1x mr-2'></i><strong>far fa-file-word</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-file-medical fa-border fa-1x mr-2'></i><strong>fa fa-file-medical</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-file-medical-alt fa-border fa-1x mr-2'></i><strong>fa fa-file-medical-alt</strong></div></div>
+<div class="col-md-12 mb-1 mt-1"><strong>HAND / TANGAN</strong></div> 
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-thumbs-up fa-border fa-1x mr-2'></i><strong>fa fa-thumbs-up</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-thumbs-up fa-border fa-1x mr-2'></i><strong>far fa-thumbs-up</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-thumbs-down fa-border fa-1x mr-2'></i><strong>fa fa-thumbs-down</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-thumbs-down fa-border fa-1x mr-2'></i><strong>far fa-thumbs-down</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-hand-lizard fa-border fa-1x mr-2'></i><strong>fa fa-hand-lizard</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-hand-lizard fa-border fa-1x mr-2'></i><strong>far fa-hand-lizard</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-hand-paper fa-border fa-1x mr-2'></i><strong>fa fa-hand-paper</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-hand-paper fa-border fa-1x mr-2'></i><strong>far fa-hand-paper</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-hand-peace fa-border fa-1x mr-2'></i><strong>fa fa-hand-peace</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-hand-peace fa-border fa-1x mr-2'></i><strong>far fa-hand-peace</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-hand-point-down fa-border fa-1x mr-2'></i><strong>fa fa-hand-point-down</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-hand-point-down fa-border fa-1x mr-2'></i><strong>far fa-hand-point-down</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-hand-point-left fa-border fa-1x mr-2'></i><strong>fa fa-hand-point-left</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-hand-point-left fa-border fa-1x mr-2'></i><strong>far fa-hand-point-left</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-hand-point-right fa-border fa-1x mr-2'></i><strong>fa fa-hand-point-right</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-hand-point-right fa-border fa-1x mr-2'></i><strong>far fa-hand-point-right</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-hand-point-up fa-border fa-1x mr-2'></i><strong>fa fa-hand-point-up</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-hand-point-up fa-border fa-1x mr-2'></i><strong>far fa-hand-point-up</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-hand-pointer fa-border fa-1x mr-2'></i><strong>fa fa-hand-pointer</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-hand-pointer fa-border fa-1x mr-2'></i><strong>far fa-hand-pointer</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-hand-rock fa-border fa-1x mr-2'></i><strong>fa fa-hand-rock</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-hand-rock fa-border fa-1x mr-2'></i><strong>far fa-hand-rock</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-hand-scissors fa-border fa-1x mr-2'></i><strong>fa fa-hand-scissors</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-hand-scissors fa-border fa-1x mr-2'></i><strong>far fa-hand-scissors</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-hand-spock fa-border fa-1x mr-2'></i><strong>fa fa-hand-spock</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-hand-spock fa-border fa-1x mr-2'></i><strong>far fa-hand-spock</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-handshake fa-border fa-1x mr-2'></i><strong>fa fa-handshake</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='far fa-handshake fa-border fa-1x mr-2'></i><strong>far fa-handshake</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-hands fa-border fa-1x mr-2'></i><strong>fa fa-hands</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-hands-helping fa-border fa-1x mr-2'></i><strong>fa fa-hands-helping</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-hand-holding fa-border fa-1x mr-2'></i><strong>fa fa-hand-holding</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-hand-holding-heart fa-border fa-1x mr-2'></i><strong>fa fa-hand-holding-heart</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-hand-holding-usd fa-border fa-1x mr-2'></i><strong>fa fa-hand-holding-usd</strong></div></div>
+    <div class="col-md-3 bor1"><div class="m-1"><i class="fa fa-allergies fa-border fa-1x mr-2"></i><strong>fa fa-allergies</strong></div></div>
+    <div class="col-md-3 bor1"><div class="m-1"><i class="fab fa-angellist fa-border fa-1x mr-2"></i><strong>fab fa-angellist</strong></div></div>
+<div class="col-md-12 mb-1 mt-1"><strong>CARD / KARTU</strong></div>
+    <div class="col-md-3 bor1"><div class="m-1"><i class="fa fa-address-card fa-border fa-1x mr-2"></i><strong>fa fa-address-card</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-id-card fa-border fa-1x mr-2'></i><strong>fa fa-id-card</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-credit-card fa-border fa-1x mr-2'></i><strong>fa fa-credit-card</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-cc-amazon-pay fa-border fa-1x mr-2'></i><strong>fab fa-cc-amazon-pay</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-cc-amex fa-border fa-1x mr-2'></i><strong>fab fa-cc-amex</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-cc-apple-pay fa-border fa-1x mr-2'></i><strong>fab fa-cc-apple-pay</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-cc-diners-club fa-border fa-1x mr-2'></i><strong>fab fa-cc-diners-club</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-cc-discover fa-border fa-1x mr-2'></i><strong>fab fa-cc-discover</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-cc-jcb fa-border fa-1x mr-2'></i><strong>fab fa-cc-jcb</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-cc-mastercard fa-border fa-1x mr-2'></i><strong>fab fa-cc-mastercard</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-cc-paypal fa-border fa-1x mr-2'></i><strong>fab fa-cc-paypal</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-cc-stripe fa-border fa-1x mr-2'></i><strong>fab fa-cc-stripe</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-cc-visa fa-border fa-1x mr-2'></i><strong>fab fa-cc-visa</strong></div></div>
+<div class="col-md-12 mb-1 mt-1"><strong>ARROW / PANAH</strong></div>  
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-sign-in-alt fa-border fa-1x mr-2'></i><strong>fa fa-sign-in-alt</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-sign-out-alt fa-border fa-1x mr-2'></i><strong>fa fa-sign-out-alt</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-location-arrow fa-border fa-1x mr-2'></i><strong>fa fa-location-arrow</strong></div></div> 
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-mouse-pointer fa-border fa-1x mr-2'></i><strong>fa fa-mouse-pointer</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-external-link-alt fa-border fa-1x mr-2'></i><strong>fa fa-external-link-alt</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-external-link-square-alt fa-border fa-1x mr-2'></i><strong>fa fa-external-link-square-alt</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-arrow-alt-circle-down fa-border fa-1x mr-2'></i><strong>fa fa-arrow-alt-circle-down</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-arrow-alt-circle-left fa-border fa-1x mr-2'></i><strong>fa fa-arrow-alt-circle-left</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-arrow-alt-circle-right fa-border fa-1x mr-2'></i><strong>fa fa-arrow-alt-circle-right</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-arrow-alt-circle-up fa-border fa-1x mr-2'></i><strong>fa fa-arrow-alt-circle-up</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-arrow-circle-down fa-border fa-1x mr-2'></i><strong>fa fa-arrow-circle-down</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-arrow-circle-left fa-border fa-1x mr-2'></i><strong>fa fa-arrow-circle-left</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-arrow-circle-right fa-border fa-1x mr-2'></i><strong>fa fa-arrow-circle-right</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-arrow-circle-up fa-border fa-1x mr-2'></i><strong>fa fa-arrow-circle-up</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-arrow-down fa-border fa-1x mr-2'></i><strong>fa fa-arrow-down</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-arrow-left fa-border fa-1x mr-2'></i><strong>fa fa-arrow-left</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-arrow-right fa-border fa-1x mr-2'></i><strong>fa fa-arrow-right</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-arrow-up fa-border fa-1x mr-2'></i><strong>fa fa-arrow-up</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-arrows-alt fa-border fa-1x mr-2'></i><strong>fa fa-arrows-alt</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-arrows-alt-h fa-border fa-1x mr-2'></i><strong>fa fa-arrows-alt-h</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-arrows-alt-v fa-border fa-1x mr-2'></i><strong>fa fa-arrows-alt-v</strong></div></div>
+    <div class="col-md-3 bor1"><div class="m-1"><i class="fa fa-angle-double-down fa-border fa-1x mr-2"></i><strong>fa fa-angle-double-down</strong></div></div>
+    <div class="col-md-3 bor1"><div class="m-1"><i class="fa fa-angle-double-left fa-border fa-1x mr-2"></i><strong>fa fa-angle-double-left</strong></div></div>
+    <div class="col-md-3 bor1"><div class="m-1"><i class="fa fa-angle-double-right fa-border fa-1x mr-2"></i><strong>fa fa-angle-double-right</strong></div></div>
+    <div class="col-md-3 bor1"><div class="m-1"><i class="fa fa-angle-double-up fa-border fa-1x mr-2"></i><strong>fa fa-angle-double-up</strong></div></div>
+    <div class="col-md-3 bor1"><div class="m-1"><i class="fa fa-angle-down fa-border fa-1x mr-2"></i><strong>fa fa-angle-down</strong></div></div>
+    <div class="col-md-3 bor1"><div class="m-1"><i class="fa fa-angle-left fa-border fa-1x mr-2"></i><strong>fa fa-angle-left</strong></div></div>
+    <div class="col-md-3 bor1"><div class="m-1"><i class="fa fa-angle-right fa-border fa-1x mr-2"></i><strong>fa fa-angle-right</strong></div></div>         
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-angle-up fa-border fa-1x mr-2'></i><strong>fa fa-angle-up</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-caret-down fa-border fa-1x mr-2'></i><strong>fa fa-caret-down</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-caret-left fa-border fa-1x mr-2'></i><strong>fa fa-caret-left</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-caret-right fa-border fa-1x mr-2'></i><strong>fa fa-caret-right</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-caret-square-down fa-border fa-1x mr-2'></i><strong>fa fa-caret-square-down</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-caret-square-left fa-border fa-1x mr-2'></i><strong>fa fa-caret-square-left</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-caret-square-right fa-border fa-1x mr-2'></i><strong>fa fa-caret-square-right</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-caret-square-up fa-border fa-1x mr-2'></i><strong>fa fa-caret-square-up</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-caret-up fa-border fa-1x mr-2'></i><strong>fa fa-caret-up</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-chevron-circle-down fa-border fa-1x mr-2'></i><strong>fa fa-chevron-circle-down</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-chevron-circle-left fa-border fa-1x mr-2'></i><strong>fa fa-chevron-circle-left</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-chevron-circle-right fa-border fa-1x mr-2'></i><strong>fa fa-chevron-circle-right</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-chevron-circle-up fa-border fa-1x mr-2'></i><strong>fa fa-chevron-circle-up</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-chevron-down fa-border fa-1x mr-2'></i><strong>fa fa-chevron-down</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-chevron-left fa-border fa-1x mr-2'></i><strong>fa fa-chevron-left</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-chevron-right fa-border fa-1x mr-2'></i><strong>fa fa-chevron-right</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-chevron-up fa-border fa-1x mr-2'></i><strong>fa fa-chevron-up</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-exchange-alt fa-border fa-1x mr-2'></i><strong>fa fa-exchange-alt</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-long-arrow-alt-down fa-border fa-1x mr-2'></i><strong>fa fa-long-arrow-alt-down</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-long-arrow-alt-left fa-border fa-1x mr-2'></i><strong>fa fa-long-arrow-alt-left</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-long-arrow-alt-right fa-border fa-1x mr-2'></i><strong>fa fa-long-arrow-alt-right</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-long-arrow-alt-up fa-border fa-1x mr-2'></i><strong>fa fa-long-arrow-alt-up</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-random fa-border fa-1x mr-2'></i><strong>fa fa-random</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-redo fa-border fa-1x mr-2'></i><strong>fa fa-redo</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-redo-alt fa-border fa-1x mr-2'></i><strong>fa fa-redo-alt</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-reply fa-border fa-1x mr-2'></i><strong>fa fa-reply</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-reply-all fa-border fa-1x mr-2'></i><strong>fa fa-reply-all</strong></div></div>
+    <div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-retweet fa-border fa-1x mr-2'></i><strong>fa fa-retweet</strong></div></div>
+
+<div class="col-md-12 hr mb-2 mt-2">
+    <center><strong>OTHER ICON</strong></center>
+</div>
+
+         <div class="col-md-3 bor1"><div class="m-1"><i class="fab fa-500px fa-border fa-1x mr-2"></i><strong>fab fa-500px</strong></div></div>       
+         <div class="col-md-3 bor1"><div class="m-1"><i class="fab fa-accusoft fa-border fa-1x mr-2"></i><strong>fab fa-accusoft</strong></div></div>
+
+         <div class="col-md-3 bor1"><div class="m-1"><i class="fa fa-adjust fa-border fa-1x mr-2"></i><strong>fa fa-adjust</strong></div></div>
+         <div class="col-md-3 bor1"><div class="m-1"><i class="fab fa-adn fa-border fa-1x mr-2"></i><strong>fab fa-adn</strong></div></div>
+         <div class="col-md-3 bor1"><div class="m-1"><i class="fab fa-adversal fa-border fa-1x mr-2"></i><strong>fab fa-adversal</strong></div></div>
+         <div class="col-md-3 bor1"><div class="m-1"><i class="fab fa-affiliatetheme fa-border fa-1x mr-2"></i><strong>fab fa-affiliatetheme</strong></div></div>
+
+         <div class="col-md-3 bor1"><div class="m-1"><i class="fab fa-amazon fa-border fa-1x mr-2"></i><strong>fab fa-amazon</strong></div></div>
+         <div class="col-md-3 bor1"><div class="m-1"><i class="fab fa-amazon-pay fa-border fa-1x mr-2"></i><strong>fab fa-amazon-pay</strong></div></div>
+         <div class="col-md-3 bor1"><div class="m-1"><i class="fab fa-algolia fa-border fa-1x mr-2"></i><strong>fab fa-algolia</strong></div></div>
+
+         <div class="col-md-3 bor1"><div class="m-1"><i class="fa fa-align-center fa-border fa-1x mr-2"></i><strong>fa fa-align-center</strong></div></div>
+         <div class="col-md-3 bor1"><div class="m-1"><i class="fa fa-align-justify fa-border fa-1x mr-2"></i><strong>fa fa-align-justify</strong></div></div>
+         <div class="col-md-3 bor1"><div class="m-1"><i class="fa fa-align-left fa-border fa-1x mr-2"></i><strong>fa fa-align-left</strong></div></div>
+         <div class="col-md-3 bor1"><div class="m-1"><i class="fa fa-align-right fa-border fa-1x mr-2"></i><strong>fa fa-align-right</strong></div></div>
+         
+         <div class="col-md-3 bor1"><div class="m-1"><i class="fa fa-ambulance fa-border fa-1x mr-2"></i><strong>fa fa-ambulance</strong></div></div>
+         <div class="col-md-3 bor1"><div class="m-1"><i class="fab fa-amilia fa-border fa-1x mr-2"></i><strong>fab fa-amilia</strong></div></div>
+         <div class="col-md-3 bor1"><div class="m-1"><i class="fa fa-anchor fa-border fa-1x mr-2"></i><strong>fa fa-anchor</strong></div></div>
+         <div class="col-md-3 bor1"><div class="m-1"><i class="fab fa-android fa-border fa-1x mr-2"></i><strong>fab fa-android</strong></div></div>
+         
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-angrycreative fa-border fa-1x mr-2'></i><strong>fab fa-angrycreative</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-angular fa-border fa-1x mr-2'></i><strong>fab fa-angular</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-app-store fa-border fa-1x mr-2'></i><strong>fab fa-app-store</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-app-store-ios fa-border fa-1x mr-2'></i><strong>fab fa-app-store-ios</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-apper fa-border fa-1x mr-2'></i><strong>fab fa-apper</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-apple fa-border fa-1x mr-2'></i><strong>fab fa-apple</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-apple-pay fa-border fa-1x mr-2'></i><strong>fab fa-apple-pay</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-archive fa-border fa-1x mr-2'></i><strong>fa fa-archive</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-assistive-listening-systems fa-border fa-1x mr-2'></i><strong>fa fa-assistive-listening-systems</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-asterisk fa-border fa-1x mr-2'></i><strong>fa fa-asterisk</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-asymmetrik fa-border fa-1x mr-2'></i><strong>fab fa-asymmetrik</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-at fa-border fa-1x mr-2'></i><strong>fa fa-at</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-audible fa-border fa-1x mr-2'></i><strong>fab fa-audible</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-audio-description fa-border fa-1x mr-2'></i><strong>fa fa-audio-description</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-autoprefixer fa-border fa-1x mr-2'></i><strong>fab fa-autoprefixer</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-avianex fa-border fa-1x mr-2'></i><strong>fab fa-avianex</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-aviato fa-border fa-1x mr-2'></i><strong>fab fa-aviato</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-aws fa-border fa-1x mr-2'></i><strong>fab fa-aws</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-backward fa-border fa-1x mr-2'></i><strong>fa fa-backward</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-balance-scale fa-border fa-1x mr-2'></i><strong>fa fa-balance-scale</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-ban fa-border fa-1x mr-2'></i><strong>fa fa-ban</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-band-aid fa-border fa-1x mr-2'></i><strong>fa fa-band-aid</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-bandcamp fa-border fa-1x mr-2'></i><strong>fab fa-bandcamp</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-barcode fa-border fa-1x mr-2'></i><strong>fa fa-barcode</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-bars fa-border fa-1x mr-2'></i><strong>fa fa-bars</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-baseball-ball fa-border fa-1x mr-2'></i><strong>fa fa-baseball-ball</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-basketball-ball fa-border fa-1x mr-2'></i><strong>fa fa-basketball-ball</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-bath fa-border fa-1x mr-2'></i><strong>fa fa-bath</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-battery-empty fa-border fa-1x mr-2'></i><strong>fa fa-battery-empty</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-battery-full fa-border fa-1x mr-2'></i><strong>fa fa-battery-full</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-battery-half fa-border fa-1x mr-2'></i><strong>fa fa-battery-half</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-battery-quarter fa-border fa-1x mr-2'></i><strong>fa fa-battery-quarter</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-battery-three-quarters fa-border fa-1x mr-2'></i><strong>fa fa-battery-three-quarters</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-bed fa-border fa-1x mr-2'></i><strong>fa fa-bed</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-beer fa-border fa-1x mr-2'></i><strong>fa fa-beer</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-behance fa-border fa-1x mr-2'></i><strong>fab fa-behance</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-behance-square fa-border fa-1x mr-2'></i><strong>fab fa-behance-square</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-bell fa-border fa-1x mr-2'></i><strong>fa fa-bell</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-bell-slash fa-border fa-1x mr-2'></i><strong>fa fa-bell-slash</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-bicycle fa-border fa-1x mr-2'></i><strong>fa fa-bicycle</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-bimobject fa-border fa-1x mr-2'></i><strong>fab fa-bimobject</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-binoculars fa-border fa-1x mr-2'></i><strong>fa fa-binoculars</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-birthday-cake fa-border fa-1x mr-2'></i><strong>fa fa-birthday-cake</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-bitbucket fa-border fa-1x mr-2'></i><strong>fab fa-bitbucket</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-bitcoin fa-border fa-1x mr-2'></i><strong>fab fa-bitcoin</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-bity fa-border fa-1x mr-2'></i><strong>fab fa-bity</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-black-tie fa-border fa-1x mr-2'></i><strong>fab fa-black-tie</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-blackberry fa-border fa-1x mr-2'></i><strong>fab fa-blackberry</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-blind fa-border fa-1x mr-2'></i><strong>fa fa-blind</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-blogger fa-border fa-1x mr-2'></i><strong>fab fa-blogger</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-blogger-b fa-border fa-1x mr-2'></i><strong>fab fa-blogger-b</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-bluetooth fa-border fa-1x mr-2'></i><strong>fab fa-bluetooth</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-bluetooth-b fa-border fa-1x mr-2'></i><strong>fab fa-bluetooth-b</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-bold fa-border fa-1x mr-2'></i><strong>fa fa-bold</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-bolt fa-border fa-1x mr-2'></i><strong>fa fa-bolt</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-bomb fa-border fa-1x mr-2'></i><strong>fa fa-bomb</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-book fa-border fa-1x mr-2'></i><strong>fa fa-book</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-bookmark fa-border fa-1x mr-2'></i><strong>fa fa-bookmark</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-bowling-ball fa-border fa-1x mr-2'></i><strong>fa fa-bowling-ball</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-box fa-border fa-1x mr-2'></i><strong>fa fa-box</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-box-open fa-border fa-1x mr-2'></i><strong>fa fa-box-open</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-boxes fa-border fa-1x mr-2'></i><strong>fa fa-boxes</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-braille fa-border fa-1x mr-2'></i><strong>fa fa-braille</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-briefcase fa-border fa-1x mr-2'></i><strong>fa fa-briefcase</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-briefcase-medical fa-border fa-1x mr-2'></i><strong>fa fa-briefcase-medical</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-btc fa-border fa-1x mr-2'></i><strong>fab fa-btc</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-bug fa-border fa-1x mr-2'></i><strong>fa fa-bug</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-building fa-border fa-1x mr-2'></i><strong>fa fa-building</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-bullhorn fa-border fa-1x mr-2'></i><strong>fa fa-bullhorn</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-bullseye fa-border fa-1x mr-2'></i><strong>fa fa-bullseye</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-burn fa-border fa-1x mr-2'></i><strong>fa fa-burn</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-buromobelexperte fa-border fa-1x mr-2'></i><strong>fab fa-buromobelexperte</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-bus fa-border fa-1x mr-2'></i><strong>fa fa-bus</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-buysellads fa-border fa-1x mr-2'></i><strong>fab fa-buysellads</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-calculator fa-border fa-1x mr-2'></i><strong>fa fa-calculator</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-calendar fa-border fa-1x mr-2'></i><strong>fa fa-calendar</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-calendar-alt fa-border fa-1x mr-2'></i><strong>fa fa-calendar-alt</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-calendar-check fa-border fa-1x mr-2'></i><strong>fa fa-calendar-check</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-calendar-minus fa-border fa-1x mr-2'></i><strong>fa fa-calendar-minus</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-calendar-plus fa-border fa-1x mr-2'></i><strong>fa fa-calendar-plus</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-calendar-times fa-border fa-1x mr-2'></i><strong>fa fa-calendar-times</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-camera fa-border fa-1x mr-2'></i><strong>fa fa-camera</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-camera-retro fa-border fa-1x mr-2'></i><strong>fa fa-camera-retro</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-capsules fa-border fa-1x mr-2'></i><strong>fa fa-capsules</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-car fa-border fa-1x mr-2'></i><strong>fa fa-car</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-cart-arrow-down fa-border fa-1x mr-2'></i><strong>fa fa-cart-arrow-down</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-cart-plus fa-border fa-1x mr-2'></i><strong>fa fa-cart-plus</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-centercode fa-border fa-1x mr-2'></i><strong>fab fa-centercode</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-certificate fa-border fa-1x mr-2'></i><strong>fa fa-certificate</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-chart-area fa-border fa-1x mr-2'></i><strong>fa fa-chart-area</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-chart-bar fa-border fa-1x mr-2'></i><strong>fa fa-chart-bar</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-chart-line fa-border fa-1x mr-2'></i><strong>fa fa-chart-line</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-chart-pie fa-border fa-1x mr-2'></i><strong>fa fa-chart-pie</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-chess fa-border fa-1x mr-2'></i><strong>fa fa-chess</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-chess-bishop fa-border fa-1x mr-2'></i><strong>fa fa-chess-bishop</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-chess-board fa-border fa-1x mr-2'></i><strong>fa fa-chess-board</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-chess-king fa-border fa-1x mr-2'></i><strong>fa fa-chess-king</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-chess-knight fa-border fa-1x mr-2'></i><strong>fa fa-chess-knight</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-chess-pawn fa-border fa-1x mr-2'></i><strong>fa fa-chess-pawn</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-chess-queen fa-border fa-1x mr-2'></i><strong>fa fa-chess-queen</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-chess-rook fa-border fa-1x mr-2'></i><strong>fa fa-chess-rook</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-chrome fa-border fa-1x mr-2'></i><strong>fab fa-chrome</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-circle fa-border fa-1x mr-2'></i><strong>fa fa-circle</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-circle-notch fa-border fa-1x mr-2'></i><strong>fa fa-circle-notch</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-clipboard fa-border fa-1x mr-2'></i><strong>fa fa-clipboard</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-clipboard-check fa-border fa-1x mr-2'></i><strong>fa fa-clipboard-check</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-clipboard-list fa-border fa-1x mr-2'></i><strong>fa fa-clipboard-list</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-clock fa-border fa-1x mr-2'></i><strong>fa fa-clock</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-closed-captioning fa-border fa-1x mr-2'></i><strong>fa fa-closed-captioning</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-cloud fa-border fa-1x mr-2'></i><strong>fa fa-cloud</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-cloud-download-alt fa-border fa-1x mr-2'></i><strong>fa fa-cloud-download-alt</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-cloud-upload-alt fa-border fa-1x mr-2'></i><strong>fa fa-cloud-upload-alt</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-cloudscale fa-border fa-1x mr-2'></i><strong>fab fa-cloudscale</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-cloudsmith fa-border fa-1x mr-2'></i><strong>fab fa-cloudsmith</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-cloudversify fa-border fa-1x mr-2'></i><strong>fab fa-cloudversify</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-code fa-border fa-1x mr-2'></i><strong>fa fa-code</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-code-branch fa-border fa-1x mr-2'></i><strong>fa fa-code-branch</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-codepen fa-border fa-1x mr-2'></i><strong>fab fa-codepen</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-codiepie fa-border fa-1x mr-2'></i><strong>fab fa-codiepie</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-coffee fa-border fa-1x mr-2'></i><strong>fa fa-coffee</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-cog fa-border fa-1x mr-2'></i><strong>fa fa-cog</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-cogs fa-border fa-1x mr-2'></i><strong>fa fa-cogs</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-columns fa-border fa-1x mr-2'></i><strong>fa fa-columns</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-comment fa-border fa-1x mr-2'></i><strong>fa fa-comment</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-comment-alt fa-border fa-1x mr-2'></i><strong>fa fa-comment-alt</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-comment-dots fa-border fa-1x mr-2'></i><strong>fa fa-comment-dots</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-comment-slash fa-border fa-1x mr-2'></i><strong>fa fa-comment-slash</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-comments fa-border fa-1x mr-2'></i><strong>fa fa-comments</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-compass fa-border fa-1x mr-2'></i><strong>fa fa-compass</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-compress fa-border fa-1x mr-2'></i><strong>fa fa-compress</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-connectdevelop fa-border fa-1x mr-2'></i><strong>fab fa-connectdevelop</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-contao fa-border fa-1x mr-2'></i><strong>fab fa-contao</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-copyright fa-border fa-1x mr-2'></i><strong>fa fa-copyright</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-couch fa-border fa-1x mr-2'></i><strong>fa fa-couch</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-cpanel fa-border fa-1x mr-2'></i><strong>fab fa-cpanel</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-creative-commons fa-border fa-1x mr-2'></i><strong>fab fa-creative-commons</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-crosshairs fa-border fa-1x mr-2'></i><strong>fa fa-crosshairs</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-css3 fa-border fa-1x mr-2'></i><strong>fab fa-css3</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-css3-alt fa-border fa-1x mr-2'></i><strong>fab fa-css3-alt</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-cube fa-border fa-1x mr-2'></i><strong>fa fa-cube</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-cubes fa-border fa-1x mr-2'></i><strong>fa fa-cubes</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-cuttlefish fa-border fa-1x mr-2'></i><strong>fab fa-cuttlefish</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-d-and-d fa-border fa-1x mr-2'></i><strong>fab fa-d-and-d</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-dashcube fa-border fa-1x mr-2'></i><strong>fab fa-dashcube</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-database fa-border fa-1x mr-2'></i><strong>fa fa-database</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-deaf fa-border fa-1x mr-2'></i><strong>fa fa-deaf</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-delicious fa-border fa-1x mr-2'></i><strong>fab fa-delicious</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-deploydog fa-border fa-1x mr-2'></i><strong>fab fa-deploydog</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-deskpro fa-border fa-1x mr-2'></i><strong>fab fa-deskpro</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-desktop fa-border fa-1x mr-2'></i><strong>fa fa-desktop</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-deviantart fa-border fa-1x mr-2'></i><strong>fab fa-deviantart</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-diagnoses fa-border fa-1x mr-2'></i><strong>fa fa-diagnoses</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-digg fa-border fa-1x mr-2'></i><strong>fab fa-digg</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-digital-ocean fa-border fa-1x mr-2'></i><strong>fab fa-digital-ocean</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-discord fa-border fa-1x mr-2'></i><strong>fab fa-discord</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-discourse fa-border fa-1x mr-2'></i><strong>fab fa-discourse</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-dna fa-border fa-1x mr-2'></i><strong>fa fa-dna</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-dochub fa-border fa-1x mr-2'></i><strong>fab fa-dochub</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-docker fa-border fa-1x mr-2'></i><strong>fab fa-docker</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-dollar-sign fa-border fa-1x mr-2'></i><strong>fa fa-dollar-sign</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-dolly fa-border fa-1x mr-2'></i><strong>fa fa-dolly</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-dolly-flatbed fa-border fa-1x mr-2'></i><strong>fa fa-dolly-flatbed</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-donate fa-border fa-1x mr-2'></i><strong>fa fa-donate</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-dot-circle fa-border fa-1x mr-2'></i><strong>fa fa-dot-circle</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-dove fa-border fa-1x mr-2'></i><strong>fa fa-dove</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-download fa-border fa-1x mr-2'></i><strong>fa fa-download</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-draft2digital fa-border fa-1x mr-2'></i><strong>fab fa-draft2digital</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-dribbble fa-border fa-1x mr-2'></i><strong>fab fa-dribbble</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-dribbble-square fa-border fa-1x mr-2'></i><strong>fab fa-dribbble-square</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-dropbox fa-border fa-1x mr-2'></i><strong>fab fa-dropbox</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-drupal fa-border fa-1x mr-2'></i><strong>fab fa-drupal</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-dyalog fa-border fa-1x mr-2'></i><strong>fab fa-dyalog</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-earlybirds fa-border fa-1x mr-2'></i><strong>fab fa-earlybirds</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-edge fa-border fa-1x mr-2'></i><strong>fab fa-edge</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-eject fa-border fa-1x mr-2'></i><strong>fa fa-eject</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-elementor fa-border fa-1x mr-2'></i><strong>fab fa-elementor</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-ellipsis-h fa-border fa-1x mr-2'></i><strong>fa fa-ellipsis-h</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-ellipsis-v fa-border fa-1x mr-2'></i><strong>fa fa-ellipsis-v</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-ember fa-border fa-1x mr-2'></i><strong>fab fa-ember</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-empire fa-border fa-1x mr-2'></i><strong>fab fa-empire</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-envira fa-border fa-1x mr-2'></i><strong>fab fa-envira</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-eraser fa-border fa-1x mr-2'></i><strong>fa fa-eraser</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-erlang fa-border fa-1x mr-2'></i><strong>fab fa-erlang</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-ethereum fa-border fa-1x mr-2'></i><strong>fab fa-ethereum</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-etsy fa-border fa-1x mr-2'></i><strong>fab fa-etsy</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-euro-sign fa-border fa-1x mr-2'></i><strong>fa fa-euro-sign</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-exclamation fa-border fa-1x mr-2'></i><strong>fa fa-exclamation</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-exclamation-circle fa-border fa-1x mr-2'></i><strong>fa fa-exclamation-circle</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-exclamation-triangle fa-border fa-1x mr-2'></i><strong>fa fa-exclamation-triangle</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-expeditedssl fa-border fa-1x mr-2'></i><strong>fab fa-expeditedssl</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-eye fa-border fa-1x mr-2'></i><strong>fa fa-eye</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-eye-dropper fa-border fa-1x mr-2'></i><strong>fa fa-eye-dropper</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-eye-slash fa-border fa-1x mr-2'></i><strong>fa fa-eye-slash</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-facebook fa-border fa-1x mr-2'></i><strong>fab fa-facebook</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-facebook-f fa-border fa-1x mr-2'></i><strong>fab fa-facebook-f</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-facebook-messenger fa-border fa-1x mr-2'></i><strong>fab fa-facebook-messenger</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-facebook-square fa-border fa-1x mr-2'></i><strong>fab fa-facebook-square</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-fast-backward fa-border fa-1x mr-2'></i><strong>fa fa-fast-backward</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-fast-forward fa-border fa-1x mr-2'></i><strong>fa fa-fast-forward</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-fax fa-border fa-1x mr-2'></i><strong>fa fa-fax</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-fighter-jet fa-border fa-1x mr-2'></i><strong>fa fa-fighter-jet</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-film fa-border fa-1x mr-2'></i><strong>fa fa-film</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-filter fa-border fa-1x mr-2'></i><strong>fa fa-filter</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-fire fa-border fa-1x mr-2'></i><strong>fa fa-fire</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-fire-extinguisher fa-border fa-1x mr-2'></i><strong>fa fa-fire-extinguisher</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-firefox fa-border fa-1x mr-2'></i><strong>fab fa-firefox</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-first-aid fa-border fa-1x mr-2'></i><strong>fa fa-first-aid</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-first-order fa-border fa-1x mr-2'></i><strong>fab fa-first-order</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-firstdraft fa-border fa-1x mr-2'></i><strong>fab fa-firstdraft</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-flag fa-border fa-1x mr-2'></i><strong>fa fa-flag</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-flag-checkered fa-border fa-1x mr-2'></i><strong>fa fa-flag-checkered</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-flask fa-border fa-1x mr-2'></i><strong>fa fa-flask</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-flickr fa-border fa-1x mr-2'></i><strong>fab fa-flickr</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-flipboard fa-border fa-1x mr-2'></i><strong>fab fa-flipboard</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-fly fa-border fa-1x mr-2'></i><strong>fab fa-fly</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-folder fa-border fa-1x mr-2'></i><strong>fa fa-folder</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-folder-open fa-border fa-1x mr-2'></i><strong>fa fa-folder-open</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-font fa-border fa-1x mr-2'></i><strong>fa fa-font</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-font-awesome fa-border fa-1x mr-2'></i><strong>fab fa-font-awesome</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-font-awesome-alt fa-border fa-1x mr-2'></i><strong>fab fa-font-awesome-alt</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-font-awesome-flag fa-border fa-1x mr-2'></i><strong>fab fa-font-awesome-flag</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-fonticons fa-border fa-1x mr-2'></i><strong>fab fa-fonticons</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-fonticons-fi fa-border fa-1x mr-2'></i><strong>fab fa-fonticons-fi</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-football-ball fa-border fa-1x mr-2'></i><strong>fa fa-football-ball</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-fort-awesome fa-border fa-1x mr-2'></i><strong>fab fa-fort-awesome</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-fort-awesome-alt fa-border fa-1x mr-2'></i><strong>fab fa-fort-awesome-alt</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-forumbee fa-border fa-1x mr-2'></i><strong>fab fa-forumbee</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-forward fa-border fa-1x mr-2'></i><strong>fa fa-forward</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-foursquare fa-border fa-1x mr-2'></i><strong>fab fa-foursquare</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-free-code-camp fa-border fa-1x mr-2'></i><strong>fab fa-free-code-camp</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-freebsd fa-border fa-1x mr-2'></i><strong>fab fa-freebsd</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-frown fa-border fa-1x mr-2'></i><strong>fa fa-frown</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-futbol fa-border fa-1x mr-2'></i><strong>fa fa-futbol</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-gamepad fa-border fa-1x mr-2'></i><strong>fa fa-gamepad</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-gavel fa-border fa-1x mr-2'></i><strong>fa fa-gavel</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-gem fa-border fa-1x mr-2'></i><strong>fa fa-gem</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-genderless fa-border fa-1x mr-2'></i><strong>fa fa-genderless</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-get-pocket fa-border fa-1x mr-2'></i><strong>fab fa-get-pocket</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-gg fa-border fa-1x mr-2'></i><strong>fab fa-gg</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-gg-circle fa-border fa-1x mr-2'></i><strong>fab fa-gg-circle</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-gift fa-border fa-1x mr-2'></i><strong>fa fa-gift</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-git fa-border fa-1x mr-2'></i><strong>fab fa-git</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-git-square fa-border fa-1x mr-2'></i><strong>fab fa-git-square</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-github fa-border fa-1x mr-2'></i><strong>fab fa-github</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-github-alt fa-border fa-1x mr-2'></i><strong>fab fa-github-alt</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-github-square fa-border fa-1x mr-2'></i><strong>fab fa-github-square</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-gitkraken fa-border fa-1x mr-2'></i><strong>fab fa-gitkraken</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-gitlab fa-border fa-1x mr-2'></i><strong>fab fa-gitlab</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-gitter fa-border fa-1x mr-2'></i><strong>fab fa-gitter</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-glass-martini fa-border fa-1x mr-2'></i><strong>fa fa-glass-martini</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-glide fa-border fa-1x mr-2'></i><strong>fab fa-glide</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-glide-g fa-border fa-1x mr-2'></i><strong>fab fa-glide-g</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-globe fa-border fa-1x mr-2'></i><strong>fa fa-globe</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-gofore fa-border fa-1x mr-2'></i><strong>fab fa-gofore</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-golf-ball fa-border fa-1x mr-2'></i><strong>fa fa-golf-ball</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-goodreads fa-border fa-1x mr-2'></i><strong>fab fa-goodreads</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-goodreads-g fa-border fa-1x mr-2'></i><strong>fab fa-goodreads-g</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-google fa-border fa-1x mr-2'></i><strong>fab fa-google</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-google-drive fa-border fa-1x mr-2'></i><strong>fab fa-google-drive</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-google-play fa-border fa-1x mr-2'></i><strong>fab fa-google-play</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-google-plus fa-border fa-1x mr-2'></i><strong>fab fa-google-plus</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-google-plus-g fa-border fa-1x mr-2'></i><strong>fab fa-google-plus-g</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-google-plus-square fa-border fa-1x mr-2'></i><strong>fab fa-google-plus-square</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-google-wallet fa-border fa-1x mr-2'></i><strong>fab fa-google-wallet</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-graduation-cap fa-border fa-1x mr-2'></i><strong>fa fa-graduation-cap</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-gratipay fa-border fa-1x mr-2'></i><strong>fab fa-gratipay</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-grav fa-border fa-1x mr-2'></i><strong>fab fa-grav</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-gripfire fa-border fa-1x mr-2'></i><strong>fab fa-gripfire</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-grunt fa-border fa-1x mr-2'></i><strong>fab fa-grunt</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-gulp fa-border fa-1x mr-2'></i><strong>fab fa-gulp</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-h-square fa-border fa-1x mr-2'></i><strong>fa fa-h-square</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-hacker-news fa-border fa-1x mr-2'></i><strong>fab fa-hacker-news</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-hacker-news-square fa-border fa-1x mr-2'></i><strong>fab fa-hacker-news-square</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-hashtag fa-border fa-1x mr-2'></i><strong>fa fa-hashtag</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-hdd fa-border fa-1x mr-2'></i><strong>fa fa-hdd</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-heading fa-border fa-1x mr-2'></i><strong>fa fa-heading</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-headphones fa-border fa-1x mr-2'></i><strong>fa fa-headphones</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-heart fa-border fa-1x mr-2'></i><strong>fa fa-heart</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-heartbeat fa-border fa-1x mr-2'></i><strong>fa fa-heartbeat</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-hips fa-border fa-1x mr-2'></i><strong>fab fa-hips</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-hire-a-helper fa-border fa-1x mr-2'></i><strong>fab fa-hire-a-helper</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-history fa-border fa-1x mr-2'></i><strong>fa fa-history</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-hockey-puck fa-border fa-1x mr-2'></i><strong>fa fa-hockey-puck</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-home fa-border fa-1x mr-2'></i><strong>fa fa-home</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-hooli fa-border fa-1x mr-2'></i><strong>fab fa-hooli</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-hospital fa-border fa-1x mr-2'></i><strong>fa fa-hospital</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-hospital-alt fa-border fa-1x mr-2'></i><strong>fa fa-hospital-alt</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-hospital-symbol fa-border fa-1x mr-2'></i><strong>fa fa-hospital-symbol</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-hotjar fa-border fa-1x mr-2'></i><strong>fab fa-hotjar</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-hourglass fa-border fa-1x mr-2'></i><strong>fa fa-hourglass</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-hourglass-end fa-border fa-1x mr-2'></i><strong>fa fa-hourglass-end</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-hourglass-half fa-border fa-1x mr-2'></i><strong>fa fa-hourglass-half</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-hourglass-start fa-border fa-1x mr-2'></i><strong>fa fa-hourglass-start</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-houzz fa-border fa-1x mr-2'></i><strong>fab fa-houzz</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-html5 fa-border fa-1x mr-2'></i><strong>fab fa-html5</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-hubspot fa-border fa-1x mr-2'></i><strong>fab fa-hubspot</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-i-cursor fa-border fa-1x mr-2'></i><strong>fa fa-i-cursor</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-id-badge fa-border fa-1x mr-2'></i><strong>fa fa-id-badge</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-id-card-alt fa-border fa-1x mr-2'></i><strong>fa fa-id-card-alt</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-image fa-border fa-1x mr-2'></i><strong>fa fa-image</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-images fa-border fa-1x mr-2'></i><strong>fa fa-images</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-imdb fa-border fa-1x mr-2'></i><strong>fab fa-imdb</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-inbox fa-border fa-1x mr-2'></i><strong>fa fa-inbox</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-indent fa-border fa-1x mr-2'></i><strong>fa fa-indent</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-industry fa-border fa-1x mr-2'></i><strong>fa fa-industry</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-info fa-border fa-1x mr-2'></i><strong>fa fa-info</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-info-circle fa-border fa-1x mr-2'></i><strong>fa fa-info-circle</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-instagram fa-border fa-1x mr-2'></i><strong>fab fa-instagram</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-internet-explorer fa-border fa-1x mr-2'></i><strong>fab fa-internet-explorer</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-ioxhost fa-border fa-1x mr-2'></i><strong>fab fa-ioxhost</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-italic fa-border fa-1x mr-2'></i><strong>fa fa-italic</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-itunes fa-border fa-1x mr-2'></i><strong>fab fa-itunes</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-itunes-note fa-border fa-1x mr-2'></i><strong>fab fa-itunes-note</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-jenkins fa-border fa-1x mr-2'></i><strong>fab fa-jenkins</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-joget fa-border fa-1x mr-2'></i><strong>fab fa-joget</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-joomla fa-border fa-1x mr-2'></i><strong>fab fa-joomla</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-js fa-border fa-1x mr-2'></i><strong>fab fa-js</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-js-square fa-border fa-1x mr-2'></i><strong>fab fa-js-square</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-jsfiddle fa-border fa-1x mr-2'></i><strong>fab fa-jsfiddle</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-key fa-border fa-1x mr-2'></i><strong>fa fa-key</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-keyboard fa-border fa-1x mr-2'></i><strong>fa fa-keyboard</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-keycdn fa-border fa-1x mr-2'></i><strong>fab fa-keycdn</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-kickstarter fa-border fa-1x mr-2'></i><strong>fab fa-kickstarter</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-kickstarter-k fa-border fa-1x mr-2'></i><strong>fab fa-kickstarter-k</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-korvue fa-border fa-1x mr-2'></i><strong>fab fa-korvue</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-language fa-border fa-1x mr-2'></i><strong>fa fa-language</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-laptop fa-border fa-1x mr-2'></i><strong>fa fa-laptop</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-laravel fa-border fa-1x mr-2'></i><strong>fab fa-laravel</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-lastfm fa-border fa-1x mr-2'></i><strong>fab fa-lastfm</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-lastfm-square fa-border fa-1x mr-2'></i><strong>fab fa-lastfm-square</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-leaf fa-border fa-1x mr-2'></i><strong>fa fa-leaf</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-leanpub fa-border fa-1x mr-2'></i><strong>fab fa-leanpub</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-lemon fa-border fa-1x mr-2'></i><strong>fa fa-lemon</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-less fa-border fa-1x mr-2'></i><strong>fab fa-less</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-level-down-alt fa-border fa-1x mr-2'></i><strong>fa fa-level-down-alt</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-level-up-alt fa-border fa-1x mr-2'></i><strong>fa fa-level-up-alt</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-life-ring fa-border fa-1x mr-2'></i><strong>fa fa-life-ring</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-lightbulb fa-border fa-1x mr-2'></i><strong>fa fa-lightbulb</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-line fa-border fa-1x mr-2'></i><strong>fab fa-line</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-link fa-border fa-1x mr-2'></i><strong>fa fa-link</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-linkedin fa-border fa-1x mr-2'></i><strong>fab fa-linkedin</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-linkedin-in fa-border fa-1x mr-2'></i><strong>fab fa-linkedin-in</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-linode fa-border fa-1x mr-2'></i><strong>fab fa-linode</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-linux fa-border fa-1x mr-2'></i><strong>fab fa-linux</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-lira-sign fa-border fa-1x mr-2'></i><strong>fa fa-lira-sign</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-list fa-border fa-1x mr-2'></i><strong>fa fa-list</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-list-alt fa-border fa-1x mr-2'></i><strong>fa fa-list-alt</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-list-ol fa-border fa-1x mr-2'></i><strong>fa fa-list-ol</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-list-ul fa-border fa-1x mr-2'></i><strong>fa fa-list-ul</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-lock fa-border fa-1x mr-2'></i><strong>fa fa-lock</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-lock-open fa-border fa-1x mr-2'></i><strong>fa fa-lock-open</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-low-vision fa-border fa-1x mr-2'></i><strong>fa fa-low-vision</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-lyft fa-border fa-1x mr-2'></i><strong>fab fa-lyft</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-magento fa-border fa-1x mr-2'></i><strong>fab fa-magento</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-magic fa-border fa-1x mr-2'></i><strong>fa fa-magic</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-magnet fa-border fa-1x mr-2'></i><strong>fa fa-magnet</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-map fa-border fa-1x mr-2'></i><strong>fa fa-map</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-map-marker fa-border fa-1x mr-2'></i><strong>fa fa-map-marker</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-map-marker-alt fa-border fa-1x mr-2'></i><strong>fa fa-map-marker-alt</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-map-pin fa-border fa-1x mr-2'></i><strong>fa fa-map-pin</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-map-signs fa-border fa-1x mr-2'></i><strong>fa fa-map-signs</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-maxcdn fa-border fa-1x mr-2'></i><strong>fab fa-maxcdn</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-medapps fa-border fa-1x mr-2'></i><strong>fab fa-medapps</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-medium fa-border fa-1x mr-2'></i><strong>fab fa-medium</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-medium-m fa-border fa-1x mr-2'></i><strong>fab fa-medium-m</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-medkit fa-border fa-1x mr-2'></i><strong>fa fa-medkit</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-medrt fa-border fa-1x mr-2'></i><strong>fab fa-medrt</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-meetup fa-border fa-1x mr-2'></i><strong>fab fa-meetup</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-meh fa-border fa-1x mr-2'></i><strong>fa fa-meh</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-microchip fa-border fa-1x mr-2'></i><strong>fa fa-microchip</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-microphone fa-border fa-1x mr-2'></i><strong>fa fa-microphone</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-microphone-slash fa-border fa-1x mr-2'></i><strong>fa fa-microphone-slash</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-microsoft fa-border fa-1x mr-2'></i><strong>fab fa-microsoft</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-mix fa-border fa-1x mr-2'></i><strong>fab fa-mix</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-mixcloud fa-border fa-1x mr-2'></i><strong>fab fa-mixcloud</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-mizuni fa-border fa-1x mr-2'></i><strong>fab fa-mizuni</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-mobile fa-border fa-1x mr-2'></i><strong>fa fa-mobile</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-mobile-alt fa-border fa-1x mr-2'></i><strong>fa fa-mobile-alt</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-modx fa-border fa-1x mr-2'></i><strong>fab fa-modx</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-monero fa-border fa-1x mr-2'></i><strong>fab fa-monero</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-money-bill-alt fa-border fa-1x mr-2'></i><strong>fa fa-money-bill-alt</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-moon fa-border fa-1x mr-2'></i><strong>fa fa-moon</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-motorcycle fa-border fa-1x mr-2'></i><strong>fa fa-motorcycle</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-music fa-border fa-1x mr-2'></i><strong>fa fa-music</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-neuter fa-border fa-1x mr-2'></i><strong>fa fa-neuter</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-newspaper fa-border fa-1x mr-2'></i><strong>fa fa-newspaper</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-nintendo-switch fa-border fa-1x mr-2'></i><strong>fab fa-nintendo-switch</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-node fa-border fa-1x mr-2'></i><strong>fab fa-node</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-node-js fa-border fa-1x mr-2'></i><strong>fab fa-node-js</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-notes-medical fa-border fa-1x mr-2'></i><strong>fa fa-notes-medical</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-npm fa-border fa-1x mr-2'></i><strong>fab fa-npm</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-ns8 fa-border fa-1x mr-2'></i><strong>fab fa-ns8</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-nutritionix fa-border fa-1x mr-2'></i><strong>fab fa-nutritionix</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-object-group fa-border fa-1x mr-2'></i><strong>fa fa-object-group</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-object-ungroup fa-border fa-1x mr-2'></i><strong>fa fa-object-ungroup</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-odnoklassniki fa-border fa-1x mr-2'></i><strong>fab fa-odnoklassniki</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-odnoklassniki-square fa-border fa-1x mr-2'></i><strong>fab fa-odnoklassniki-square</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-opencart fa-border fa-1x mr-2'></i><strong>fab fa-opencart</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-openid fa-border fa-1x mr-2'></i><strong>fab fa-openid</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-opera fa-border fa-1x mr-2'></i><strong>fab fa-opera</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-optin-monster fa-border fa-1x mr-2'></i><strong>fab fa-optin-monster</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-osi fa-border fa-1x mr-2'></i><strong>fab fa-osi</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-outdent fa-border fa-1x mr-2'></i><strong>fa fa-outdent</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-page4 fa-border fa-1x mr-2'></i><strong>fab fa-page4</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-pagelines fa-border fa-1x mr-2'></i><strong>fab fa-pagelines</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-palfed fa-border fa-1x mr-2'></i><strong>fab fa-palfed</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-pallet fa-border fa-1x mr-2'></i><strong>fa fa-pallet</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-paperclip fa-border fa-1x mr-2'></i><strong>fa fa-paperclip</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-parachute-box fa-border fa-1x mr-2'></i><strong>fa fa-parachute-box</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-paragraph fa-border fa-1x mr-2'></i><strong>fa fa-paragraph</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-paste fa-border fa-1x mr-2'></i><strong>fa fa-paste</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-patreon fa-border fa-1x mr-2'></i><strong>fab fa-patreon</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-pause fa-border fa-1x mr-2'></i><strong>fa fa-pause</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-pause-circle fa-border fa-1x mr-2'></i><strong>fa fa-pause-circle</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-paw fa-border fa-1x mr-2'></i><strong>fa fa-paw</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-paypal fa-border fa-1x mr-2'></i><strong>fab fa-paypal</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-pen-square fa-border fa-1x mr-2'></i><strong>fa fa-pen-square</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-percent fa-border fa-1x mr-2'></i><strong>fa fa-percent</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-periscope fa-border fa-1x mr-2'></i><strong>fab fa-periscope</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-phabricator fa-border fa-1x mr-2'></i><strong>fab fa-phabricator</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-phoenix-framework fa-border fa-1x mr-2'></i><strong>fab fa-phoenix-framework</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-phone fa-border fa-1x mr-2'></i><strong>fa fa-phone</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-phone-slash fa-border fa-1x mr-2'></i><strong>fa fa-phone-slash</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-phone-square fa-border fa-1x mr-2'></i><strong>fa fa-phone-square</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-phone-volume fa-border fa-1x mr-2'></i><strong>fa fa-phone-volume</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-php fa-border fa-1x mr-2'></i><strong>fab fa-php</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-pied-piper fa-border fa-1x mr-2'></i><strong>fab fa-pied-piper</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-pied-piper-alt fa-border fa-1x mr-2'></i><strong>fab fa-pied-piper-alt</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-pied-piper-pp fa-border fa-1x mr-2'></i><strong>fab fa-pied-piper-pp</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-piggy-bank fa-border fa-1x mr-2'></i><strong>fa fa-piggy-bank</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-pills fa-border fa-1x mr-2'></i><strong>fa fa-pills</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-pinterest fa-border fa-1x mr-2'></i><strong>fab fa-pinterest</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-pinterest-p fa-border fa-1x mr-2'></i><strong>fab fa-pinterest-p</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-pinterest-square fa-border fa-1x mr-2'></i><strong>fab fa-pinterest-square</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-plane fa-border fa-1x mr-2'></i><strong>fa fa-plane</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-play fa-border fa-1x mr-2'></i><strong>fa fa-play</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-play-circle fa-border fa-1x mr-2'></i><strong>fa fa-play-circle</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-playstation fa-border fa-1x mr-2'></i><strong>fab fa-playstation</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-plug fa-border fa-1x mr-2'></i><strong>fa fa-plug</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-podcast fa-border fa-1x mr-2'></i><strong>fa fa-podcast</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-poo fa-border fa-1x mr-2'></i><strong>fa fa-poo</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-pound-sign fa-border fa-1x mr-2'></i><strong>fa fa-pound-sign</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-power-off fa-border fa-1x mr-2'></i><strong>fa fa-power-off</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-prescription-bottle fa-border fa-1x mr-2'></i><strong>fa fa-prescription-bottle</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-prescription-bottle-alt fa-border fa-1x mr-2'></i><strong>fa fa-prescription-bottle-alt</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-print fa-border fa-1x mr-2'></i><strong>fa fa-print</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-procedures fa-border fa-1x mr-2'></i><strong>fa fa-procedures</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-product-hunt fa-border fa-1x mr-2'></i><strong>fab fa-product-hunt</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-pushed fa-border fa-1x mr-2'></i><strong>fab fa-pushed</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-puzzle-piece fa-border fa-1x mr-2'></i><strong>fa fa-puzzle-piece</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-python fa-border fa-1x mr-2'></i><strong>fab fa-python</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-qq fa-border fa-1x mr-2'></i><strong>fab fa-qq</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-qrcode fa-border fa-1x mr-2'></i><strong>fa fa-qrcode</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-question fa-border fa-1x mr-2'></i><strong>fa fa-question</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-question-circle fa-border fa-1x mr-2'></i><strong>fa fa-question-circle</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-quidditch fa-border fa-1x mr-2'></i><strong>fa fa-quidditch</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-quinscape fa-border fa-1x mr-2'></i><strong>fab fa-quinscape</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-quora fa-border fa-1x mr-2'></i><strong>fab fa-quora</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-quote-left fa-border fa-1x mr-2'></i><strong>fa fa-quote-left</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-quote-right fa-border fa-1x mr-2'></i><strong>fa fa-quote-right</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-ravelry fa-border fa-1x mr-2'></i><strong>fab fa-ravelry</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-react fa-border fa-1x mr-2'></i><strong>fab fa-react</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-readme fa-border fa-1x mr-2'></i><strong>fab fa-readme</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-rebel fa-border fa-1x mr-2'></i><strong>fab fa-rebel</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-recycle fa-border fa-1x mr-2'></i><strong>fa fa-recycle</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-red-river fa-border fa-1x mr-2'></i><strong>fab fa-red-river</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-reddit fa-border fa-1x mr-2'></i><strong>fab fa-reddit</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-reddit-alien fa-border fa-1x mr-2'></i><strong>fab fa-reddit-alien</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-reddit-square fa-border fa-1x mr-2'></i><strong>fab fa-reddit-square</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-registered fa-border fa-1x mr-2'></i><strong>fa fa-registered</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-rendact fa-border fa-1x mr-2'></i><strong>fab fa-rendact</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-renren fa-border fa-1x mr-2'></i><strong>fab fa-renren</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-replyd fa-border fa-1x mr-2'></i><strong>fab fa-replyd</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-ribbon fa-border fa-1x mr-2'></i><strong>fa fa-ribbon</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-road fa-border fa-1x mr-2'></i><strong>fa fa-road</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-rocket fa-border fa-1x mr-2'></i><strong>fa fa-rocket</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-rocketchat fa-border fa-1x mr-2'></i><strong>fab fa-rocketchat</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-rockrms fa-border fa-1x mr-2'></i><strong>fab fa-rockrms</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-rss fa-border fa-1x mr-2'></i><strong>fa fa-rss</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-rss-square fa-border fa-1x mr-2'></i><strong>fa fa-rss-square</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-ruble-sign fa-border fa-1x mr-2'></i><strong>fa fa-ruble-sign</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-rupee-sign fa-border fa-1x mr-2'></i><strong>fa fa-rupee-sign</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-safari fa-border fa-1x mr-2'></i><strong>fab fa-safari</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-sass fa-border fa-1x mr-2'></i><strong>fab fa-sass</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-save fa-border fa-1x mr-2'></i><strong>fa fa-save</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-schlix fa-border fa-1x mr-2'></i><strong>fab fa-schlix</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-scribd fa-border fa-1x mr-2'></i><strong>fab fa-scribd</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-seedling fa-border fa-1x mr-2'></i><strong>fa fa-seedling</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-sellcast fa-border fa-1x mr-2'></i><strong>fab fa-sellcast</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-sellsy fa-border fa-1x mr-2'></i><strong>fab fa-sellsy</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-server fa-border fa-1x mr-2'></i><strong>fa fa-server</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-servicestack fa-border fa-1x mr-2'></i><strong>fab fa-servicestack</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-share fa-border fa-1x mr-2'></i><strong>fa fa-share</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-share-alt fa-border fa-1x mr-2'></i><strong>fa fa-share-alt</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-share-alt-square fa-border fa-1x mr-2'></i><strong>fa fa-share-alt-square</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-share-square fa-border fa-1x mr-2'></i><strong>fa fa-share-square</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-shekel-sign fa-border fa-1x mr-2'></i><strong>fa fa-shekel-sign</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-shield-alt fa-border fa-1x mr-2'></i><strong>fa fa-shield-alt</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-ship fa-border fa-1x mr-2'></i><strong>fa fa-ship</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-shipping-fast fa-border fa-1x mr-2'></i><strong>fa fa-shipping-fast</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-shirtsinbulk fa-border fa-1x mr-2'></i><strong>fab fa-shirtsinbulk</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-shopping-bag fa-border fa-1x mr-2'></i><strong>fa fa-shopping-bag</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-shopping-basket fa-border fa-1x mr-2'></i><strong>fa fa-shopping-basket</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-shopping-cart fa-border fa-1x mr-2'></i><strong>fa fa-shopping-cart</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-shower fa-border fa-1x mr-2'></i><strong>fa fa-shower</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-sign fa-border fa-1x mr-2'></i><strong>fa fa-sign</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-resolving fa-border fa-1x mr-2'></i><strong>fab fa-resolving</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-sign-language fa-border fa-1x mr-2'></i><strong>fa fa-sign-language</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-signal fa-border fa-1x mr-2'></i><strong>fa fa-signal</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-simplybuilt fa-border fa-1x mr-2'></i><strong>fab fa-simplybuilt</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-sistrix fa-border fa-1x mr-2'></i><strong>fab fa-sistrix</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-sitemap fa-border fa-1x mr-2'></i><strong>fa fa-sitemap</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-skyatlas fa-border fa-1x mr-2'></i><strong>fab fa-skyatlas</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-skype fa-border fa-1x mr-2'></i><strong>fab fa-skype</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-slack fa-border fa-1x mr-2'></i><strong>fab fa-slack</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-slack-hash fa-border fa-1x mr-2'></i><strong>fab fa-slack-hash</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-sliders-h fa-border fa-1x mr-2'></i><strong>fa fa-sliders-h</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-slideshare fa-border fa-1x mr-2'></i><strong>fab fa-slideshare</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-smile fa-border fa-1x mr-2'></i><strong>fa fa-smile</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-smoking fa-border fa-1x mr-2'></i><strong>fa fa-smoking</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-snapchat fa-border fa-1x mr-2'></i><strong>fab fa-snapchat</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-snapchat-ghost fa-border fa-1x mr-2'></i><strong>fab fa-snapchat-ghost</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-snapchat-square fa-border fa-1x mr-2'></i><strong>fab fa-snapchat-square</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-snowflake fa-border fa-1x mr-2'></i><strong>fa fa-snowflake</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-sort fa-border fa-1x mr-2'></i><strong>fa fa-sort</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-sort-alpha-down fa-border fa-1x mr-2'></i><strong>fa fa-sort-alpha-down</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-sort-alpha-up fa-border fa-1x mr-2'></i><strong>fa fa-sort-alpha-up</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-sort-amount-down fa-border fa-1x mr-2'></i><strong>fa fa-sort-amount-down</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-sort-amount-up fa-border fa-1x mr-2'></i><strong>fa fa-sort-amount-up</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-sort-down fa-border fa-1x mr-2'></i><strong>fa fa-sort-down</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-sort-numeric-down fa-border fa-1x mr-2'></i><strong>fa fa-sort-numeric-down</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-sort-numeric-up fa-border fa-1x mr-2'></i><strong>fa fa-sort-numeric-up</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-sort-up fa-border fa-1x mr-2'></i><strong>fa fa-sort-up</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-soundcloud fa-border fa-1x mr-2'></i><strong>fab fa-soundcloud</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-space-shuttle fa-border fa-1x mr-2'></i><strong>fa fa-space-shuttle</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-speakap fa-border fa-1x mr-2'></i><strong>fab fa-speakap</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-spinner fa-border fa-1x mr-2'></i><strong>fa fa-spinner</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-spotify fa-border fa-1x mr-2'></i><strong>fab fa-spotify</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-square fa-border fa-1x mr-2'></i><strong>fa fa-square</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-square-full fa-border fa-1x mr-2'></i><strong>fa fa-square-full</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-stack-exchange fa-border fa-1x mr-2'></i><strong>fab fa-stack-exchange</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-stack-overflow fa-border fa-1x mr-2'></i><strong>fab fa-stack-overflow</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-star fa-border fa-1x mr-2'></i><strong>fa fa-star</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-star-half fa-border fa-1x mr-2'></i><strong>fa fa-star-half</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-staylinked fa-border fa-1x mr-2'></i><strong>fab fa-staylinked</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-steam fa-border fa-1x mr-2'></i><strong>fab fa-steam</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-steam-square fa-border fa-1x mr-2'></i><strong>fab fa-steam-square</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-steam-symbol fa-border fa-1x mr-2'></i><strong>fab fa-steam-symbol</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-step-backward fa-border fa-1x mr-2'></i><strong>fa fa-step-backward</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-step-forward fa-border fa-1x mr-2'></i><strong>fa fa-step-forward</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-stethoscope fa-border fa-1x mr-2'></i><strong>fa fa-stethoscope</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-sticker-mule fa-border fa-1x mr-2'></i><strong>fab fa-sticker-mule</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-sticky-note fa-border fa-1x mr-2'></i><strong>fa fa-sticky-note</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-stop fa-border fa-1x mr-2'></i><strong>fa fa-stop</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-stop-circle fa-border fa-1x mr-2'></i><strong>fa fa-stop-circle</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-stopwatch fa-border fa-1x mr-2'></i><strong>fa fa-stopwatch</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-strava fa-border fa-1x mr-2'></i><strong>fab fa-strava</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-strikethrough fa-border fa-1x mr-2'></i><strong>fa fa-strikethrough</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-stripe fa-border fa-1x mr-2'></i><strong>fab fa-stripe</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-stripe-s fa-border fa-1x mr-2'></i><strong>fab fa-stripe-s</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-studiovinari fa-border fa-1x mr-2'></i><strong>fab fa-studiovinari</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-stumbleupon fa-border fa-1x mr-2'></i><strong>fab fa-stumbleupon</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-stumbleupon-circle fa-border fa-1x mr-2'></i><strong>fab fa-stumbleupon-circle</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-subscript fa-border fa-1x mr-2'></i><strong>fa fa-subscript</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-subway fa-border fa-1x mr-2'></i><strong>fa fa-subway</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-suitcase fa-border fa-1x mr-2'></i><strong>fa fa-suitcase</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-sun fa-border fa-1x mr-2'></i><strong>fa fa-sun</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-superpowers fa-border fa-1x mr-2'></i><strong>fab fa-superpowers</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-superscript fa-border fa-1x mr-2'></i><strong>fa fa-superscript</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-supple fa-border fa-1x mr-2'></i><strong>fab fa-supple</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-sync-alt fa-border fa-1x mr-2'></i><strong>fa fa-sync-alt</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-syringe fa-border fa-1x mr-2'></i><strong>fa fa-syringe</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-table fa-border fa-1x mr-2'></i><strong>fa fa-table</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-table-tennis fa-border fa-1x mr-2'></i><strong>fa fa-table-tennis</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-tablet fa-border fa-1x mr-2'></i><strong>fa fa-tablet</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-tablet-alt fa-border fa-1x mr-2'></i><strong>fa fa-tablet-alt</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-tablets fa-border fa-1x mr-2'></i><strong>fa fa-tablets</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-tachometer-alt fa-border fa-1x mr-2'></i><strong>fa fa-tachometer-alt</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-tag fa-border fa-1x mr-2'></i><strong>fa fa-tag</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-tags fa-border fa-1x mr-2'></i><strong>fa fa-tags</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-tape fa-border fa-1x mr-2'></i><strong>fa fa-tape</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-tasks fa-border fa-1x mr-2'></i><strong>fa fa-tasks</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-taxi fa-border fa-1x mr-2'></i><strong>fa fa-taxi</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-telegram fa-border fa-1x mr-2'></i><strong>fab fa-telegram</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-tencent-weibo fa-border fa-1x mr-2'></i><strong>fab fa-tencent-weibo</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-terminal fa-border fa-1x mr-2'></i><strong>fa fa-terminal</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-text-height fa-border fa-1x mr-2'></i><strong>fa fa-text-height</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-text-width fa-border fa-1x mr-2'></i><strong>fa fa-text-width</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-th fa-border fa-1x mr-2'></i><strong>fa fa-th</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-th-large fa-border fa-1x mr-2'></i><strong>fa fa-th-large</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-th-list fa-border fa-1x mr-2'></i><strong>fa fa-th-list</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-themeisle fa-border fa-1x mr-2'></i><strong>fab fa-themeisle</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-thermometer fa-border fa-1x mr-2'></i><strong>fa fa-thermometer</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-thermometer-empty fa-border fa-1x mr-2'></i><strong>fa fa-thermometer-empty</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-thermometer-full fa-border fa-1x mr-2'></i><strong>fa fa-thermometer-full</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-thermometer-half fa-border fa-1x mr-2'></i><strong>fa fa-thermometer-half</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-thermometer-quarter fa-border fa-1x mr-2'></i><strong>fa fa-thermometer-quarter</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-thermometer-three-quarters fa-border fa-1x mr-2'></i><strong>fa fa-thermometer-three-quarters</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-thumbtack fa-border fa-1x mr-2'></i><strong>fa fa-thumbtack</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-ticket-alt fa-border fa-1x mr-2'></i><strong>fa fa-ticket-alt</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-tint fa-border fa-1x mr-2'></i><strong>fa fa-tint</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-toggle-off fa-border fa-1x mr-2'></i><strong>fa fa-toggle-off</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-toggle-on fa-border fa-1x mr-2'></i><strong>fa fa-toggle-on</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-trademark fa-border fa-1x mr-2'></i><strong>fa fa-trademark</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-train fa-border fa-1x mr-2'></i><strong>fa fa-train</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-tree fa-border fa-1x mr-2'></i><strong>fa fa-tree</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-trello fa-border fa-1x mr-2'></i><strong>fab fa-trello</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-tripadvisor fa-border fa-1x mr-2'></i><strong>fab fa-tripadvisor</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-trophy fa-border fa-1x mr-2'></i><strong>fa fa-trophy</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-truck fa-border fa-1x mr-2'></i><strong>fa fa-truck</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-truck-loading fa-border fa-1x mr-2'></i><strong>fa fa-truck-loading</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-truck-moving fa-border fa-1x mr-2'></i><strong>fa fa-truck-moving</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-tty fa-border fa-1x mr-2'></i><strong>fa fa-tty</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-tumblr fa-border fa-1x mr-2'></i><strong>fab fa-tumblr</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-tumblr-square fa-border fa-1x mr-2'></i><strong>fab fa-tumblr-square</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-tv fa-border fa-1x mr-2'></i><strong>fa fa-tv</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-twitch fa-border fa-1x mr-2'></i><strong>fab fa-twitch</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-twitter fa-border fa-1x mr-2'></i><strong>fab fa-twitter</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-twitter-square fa-border fa-1x mr-2'></i><strong>fab fa-twitter-square</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-typo3 fa-border fa-1x mr-2'></i><strong>fab fa-typo3</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-uber fa-border fa-1x mr-2'></i><strong>fab fa-uber</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-uikit fa-border fa-1x mr-2'></i><strong>fab fa-uikit</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-umbrella fa-border fa-1x mr-2'></i><strong>fa fa-umbrella</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-underline fa-border fa-1x mr-2'></i><strong>fa fa-underline</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-undo fa-border fa-1x mr-2'></i><strong>fa fa-undo</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-undo-alt fa-border fa-1x mr-2'></i><strong>fa fa-undo-alt</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-uniregistry fa-border fa-1x mr-2'></i><strong>fab fa-uniregistry</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-universal-access fa-border fa-1x mr-2'></i><strong>fa fa-universal-access</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-university fa-border fa-1x mr-2'></i><strong>fa fa-university</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-unlink fa-border fa-1x mr-2'></i><strong>fa fa-unlink</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-unlock fa-border fa-1x mr-2'></i><strong>fa fa-unlock</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-unlock-alt fa-border fa-1x mr-2'></i><strong>fa fa-unlock-alt</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-untappd fa-border fa-1x mr-2'></i><strong>fab fa-untappd</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-upload fa-border fa-1x mr-2'></i><strong>fa fa-upload</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-usb fa-border fa-1x mr-2'></i><strong>fab fa-usb</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-ussunnah fa-border fa-1x mr-2'></i><strong>fab fa-ussunnah</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-utensil-spoon fa-border fa-1x mr-2'></i><strong>fa fa-utensil-spoon</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-utensils fa-border fa-1x mr-2'></i><strong>fa fa-utensils</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-vaadin fa-border fa-1x mr-2'></i><strong>fab fa-vaadin</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-viacoin fa-border fa-1x mr-2'></i><strong>fab fa-viacoin</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-viadeo fa-border fa-1x mr-2'></i><strong>fab fa-viadeo</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-viadeo-square fa-border fa-1x mr-2'></i><strong>fab fa-viadeo-square</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-vial fa-border fa-1x mr-2'></i><strong>fa fa-vial</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-vials fa-border fa-1x mr-2'></i><strong>fa fa-vials</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-viber fa-border fa-1x mr-2'></i><strong>fab fa-viber</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-video fa-border fa-1x mr-2'></i><strong>fa fa-video</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-video-slash fa-border fa-1x mr-2'></i><strong>fa fa-video-slash</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-vimeo fa-border fa-1x mr-2'></i><strong>fab fa-vimeo</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-vimeo-square fa-border fa-1x mr-2'></i><strong>fab fa-vimeo-square</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-vimeo-v fa-border fa-1x mr-2'></i><strong>fab fa-vimeo-v</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-vine fa-border fa-1x mr-2'></i><strong>fab fa-vine</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-vk fa-border fa-1x mr-2'></i><strong>fab fa-vk</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-vnv fa-border fa-1x mr-2'></i><strong>fab fa-vnv</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-volleyball-ball fa-border fa-1x mr-2'></i><strong>fa fa-volleyball-ball</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-volume-down fa-border fa-1x mr-2'></i><strong>fa fa-volume-down</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-volume-off fa-border fa-1x mr-2'></i><strong>fa fa-volume-off</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-volume-up fa-border fa-1x mr-2'></i><strong>fa fa-volume-up</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-vuejs fa-border fa-1x mr-2'></i><strong>fab fa-vuejs</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-warehouse fa-border fa-1x mr-2'></i><strong>fa fa-warehouse</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-weibo fa-border fa-1x mr-2'></i><strong>fab fa-weibo</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-weight fa-border fa-1x mr-2'></i><strong>fa fa-weight</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-weixin fa-border fa-1x mr-2'></i><strong>fab fa-weixin</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-whatsapp fa-border fa-1x mr-2'></i><strong>fab fa-whatsapp</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-whatsapp-square fa-border fa-1x mr-2'></i><strong>fab fa-whatsapp-square</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-whmcs fa-border fa-1x mr-2'></i><strong>fab fa-whmcs</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-wifi fa-border fa-1x mr-2'></i><strong>fa fa-wifi</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-wikipedia-w fa-border fa-1x mr-2'></i><strong>fab fa-wikipedia-w</strong></div></div>
+
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-window-maximize fa-border fa-1x mr-2'></i><strong>fa fa-window-maximize</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-window-minimize fa-border fa-1x mr-2'></i><strong>fa fa-window-minimize</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-window-restore fa-border fa-1x mr-2'></i><strong>fa fa-window-restore</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-windows fa-border fa-1x mr-2'></i><strong>fab fa-windows</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-wine-glass fa-border fa-1x mr-2'></i><strong>fa fa-wine-glass</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-won-sign fa-border fa-1x mr-2'></i><strong>fa fa-won-sign</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-wordpress fa-border fa-1x mr-2'></i><strong>fab fa-wordpress</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-wordpress-simple fa-border fa-1x mr-2'></i><strong>fab fa-wordpress-simple</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-wpbeginner fa-border fa-1x mr-2'></i><strong>fab fa-wpbeginner</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-wpexplorer fa-border fa-1x mr-2'></i><strong>fab fa-wpexplorer</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-wpforms fa-border fa-1x mr-2'></i><strong>fab fa-wpforms</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-wrench fa-border fa-1x mr-2'></i><strong>fa fa-wrench</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-x-ray fa-border fa-1x mr-2'></i><strong>fa fa-x-ray</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-xbox fa-border fa-1x mr-2'></i><strong>fab fa-xbox</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-xing fa-border fa-1x mr-2'></i><strong>fab fa-xing</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-xing-square fa-border fa-1x mr-2'></i><strong>fab fa-xing-square</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-y-combinator fa-border fa-1x mr-2'></i><strong>fab fa-y-combinator</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-yahoo fa-border fa-1x mr-2'></i><strong>fab fa-yahoo</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-yandex fa-border fa-1x mr-2'></i><strong>fab fa-yandex</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-yandex-international fa-border fa-1x mr-2'></i><strong>fab fa-yandex-international</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-yelp fa-border fa-1x mr-2'></i><strong>fab fa-yelp</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fa fa-yen-sign fa-border fa-1x mr-2'></i><strong>fa fa-yen-sign</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-yoast fa-border fa-1x mr-2'></i><strong>fab fa-yoast</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-youtube fa-border fa-1x mr-2'></i><strong>fab fa-youtube</strong></div></div>
+<div class='col-md-3 bor1'><div class='m-1'><i class='fab fa-youtube-square fa-border fa-1x mr-2'></i><strong>fab fa-youtube-square</strong></div></div>
+
+
+     </div>
+<hr class="hr">
+<center>
+   Desain BY : <a href="https://web.facebook.com/ismail.samudra86" target="_blank"><strong><small>ISMAIL SAMUDRA</small></strong></a>
+</center>
+<hr class="hr">
+
+ </div>
+</div>
+
+<!-- BODY - END -->
+@endsection
