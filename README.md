@@ -5,7 +5,7 @@
 
 <iframe width="839" height="409" src="https://www.youtube.com/embed/3qOUe4jJ7MU" title="video simulasi inventaris Azkanadhifah mode lokal" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE "Video Title")
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/3qOUe4jJ7MU/0.jpg)](http://www.youtube.com/watch?v=3qOUe4jJ7MU "Video Title")
 
 
 - [Detail UI](https://github.com/laratealcorp/detail_master) 
