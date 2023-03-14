@@ -12,7 +12,7 @@ Larateal merupakan system operasi berbasis web yg di buat dengan firmwork : [Lar
 - Upload Modul Sesuai keinginan.
 - Install and uninstall Modul Yg di upload.
 
-## NB :
+### NB :
 
 Untuk Versi Local Diatas adalah versi gratis yang hanya bisa di akses pada Url :
 
@@ -20,6 +20,14 @@ Local : http://localhost:8000 or http://127.0.0.1:8000
 
 Valet : http://LaraTeal_V.1.18.test
 
-### dan untuk versi Online silahkan Hubungi (chat only) : [Whatsapp](https://wa.me/083136245050)
+#### dan untuk versi Online silahkan Hubungi (chat only) : [Whatsapp](https://wa.me/083136245050)
+
+### List Modul
+Modul dibagi atas empat class Yaitu :
+
+- Modul Website [Go Modul](https://github.com/laratealcorp/modul_web)
+- Modul Function [Go Modul](https://github.com/laratealcorp/modul_function)
+- Modul Message [Go Modul](https://github.com/laratealcorp/modul_msg)
+- Modul API [Go Modul](https://github.com/laratealcorp/modul_api)
 
 
