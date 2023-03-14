@@ -1,6 +1,9 @@
-<p align="center"><img src="https://user-images.githubusercontent.com/127891037/225124851-a0b010d3-ff8f-4b30-a1ed-c3ba1dddfdca.png" width="100"></p>
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/127891037/225124851-a0b010d3-ff8f-4b30-a1ed-c3ba1dddfdca.png" width="100">
+    ### LaraTeal V.1.18
+</p>
 
-## About Laravel
+## About LaraTeal V.1.18
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
