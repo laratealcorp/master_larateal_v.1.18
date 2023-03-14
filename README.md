@@ -2,7 +2,11 @@
     <img src="https://user-images.githubusercontent.com/127891037/225124851-a0b010d3-ff8f-4b30-a1ed-c3ba1dddfdca.png" width="100"><br>
     LaraTeal V.1.18
 </p>
-- [Detail UI](https://github.com/laratealcorp/detail_master)
+
+![Dashboard](https://user-images.githubusercontent.com/127891037/225131048-4658d7b3-28db-451b-9e3b-3b4b9a58012f.png)
+
+- [Detail UI](https://github.com/laratealcorp/detail_master) 
+
 ## About LaraTeal V.1.18
 
 Larateal merupakan system operasi berbasis web yg di buat dengan firmwork : [Laravel](https://laravel.com/) Yang dirancang se dinamis mungkin untuk memudahkan membuat aplikasi berbasis web tanpa skill coding, 
