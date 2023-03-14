@@ -7,7 +7,8 @@
 
 - [Detail UI](https://github.com/laratealcorp/detail_master) 
 - [Dokumentasi](https://github.com/laratealcorp/doc) 
-
+- login awal untuk akun Develop ,Username : cpanel ,password : cpanel ,PIN : 1180
+- login awal untuk akun super admin ,Username : root ,password : root ,PIN : 0000
 
 ## Tentang LaraTeal V.1.18
 
@@ -64,6 +65,8 @@ php artisan serve
 ```
 - Buka Browser lalu ketikkan 
 - http://localhost:8000/
+- login awal untuk akun Develop ,Username : cpanel ,password : cpanel ,PIN : 1180
+- login awal untuk akun super admin ,Username : root ,password : root ,PIN : 0000
 - Proses selesai
 - Untuk Modul silahkan memilih modul sesuai keinginan pada list modul di atas
 - Untuk cara pakai via valet silahkan lihat dokumentasi [Disini](https://laravel.com/docs/10.x/valet)
