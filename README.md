@@ -58,7 +58,7 @@ Modul dibagi atas empat class Yaitu :
 ```
 php artisan migrate:fresh --seed
 ```
-untuk Mingisi database bawaan Larateal
+untuk Mengisi database bawaan Larateal
 
 - lalu jalankan aplikasi dengan perintah :
 ```
