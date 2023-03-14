@@ -18,7 +18,7 @@ Larateal merupakan system operasi berbasis web yg di buat dengan firmwork : [Lar
 ### Fitur Antara lain
 
 - Upload Modul Sesuai keinginan.
-- Install and uninstall Modul Yg di upload.
+- Install and uninstall Modul Yang di upload.
 - lock screen dengan pin
 - Ganti logo 
 - Ganti nama aplikasi dan biodata yg lain
