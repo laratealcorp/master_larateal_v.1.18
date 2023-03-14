@@ -72,4 +72,4 @@ php artisan serve
 - Untuk cara pakai via valet silahkan lihat dokumentasi [Disini](https://laravel.com/docs/10.x/valet)
 
 
-### Untuk versi Online silahkan Hubungi (chat only) : [Whatsapp](https://wa.me/083136245050)
+### Untuk Request Modul Costume dan Versi Online silahkan Hubungi (chat only) : [Whatsapp](https://wa.me/083136245050)
