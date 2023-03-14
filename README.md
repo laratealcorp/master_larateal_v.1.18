@@ -3,9 +3,7 @@
     LaraTeal V.1.18
 </p>
 
-https://www.youtube.com/watch?v=6rioJ_5MoGk
-
-![Dashboard](https://user-images.githubusercontent.com/127891037/225131048-4658d7b3-28db-451b-9e3b-3b4b9a58012f.png)
+<iframe width="839" height="409" src="https://www.youtube.com/embed/3qOUe4jJ7MU" title="video simulasi inventaris Azkanadhifah mode lokal" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 - [Detail UI](https://github.com/laratealcorp/detail_master) 
 - [Dokumentasi](https://github.com/laratealcorp/doc) 
