@@ -3,9 +3,9 @@
     LaraTeal V.1.18
 </p>
 
-<p align="center">
+<center>
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/3qOUe4jJ7MU/1.jpg)](http://www.youtube.com/watch?v=3qOUe4jJ7MU "Video Title")
-</p>
+</center>
 
 ![ice_screenshot_20230315-055108](https://user-images.githubusercontent.com/127891037/225153749-e006549b-e3ab-417c-b6ad-af664754b6ac.png)
 
