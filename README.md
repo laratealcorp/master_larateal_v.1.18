@@ -7,7 +7,8 @@
 
 - [Detail UI](https://github.com/laratealcorp/detail_master) 
 - [Dokumentasi](https://github.com/laratealcorp/doc) 
-- 
+
+
 ## About LaraTeal V.1.18
 
 Larateal merupakan system operasi berbasis web yg di buat dengan firmwork : [Laravel](https://laravel.com/) Yang dirancang se dinamis mungkin untuk memudahkan membuat aplikasi berbasis web tanpa skill coding, 
