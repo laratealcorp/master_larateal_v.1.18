@@ -44,13 +44,12 @@ Modul dibagi atas empat class Yaitu :
 - isi kan informasi database yg dibuat sebelumnya pada kolom database pada .env
 - Buka Cmd Dan arahkan ke Folder Master larateal_v.1.18 yang telah di download
 - Lalu ketikkan Perintah :
-'''
+```
 php artisan migrate:fresh --seed
-'''
+```
 untuk Mingisi databse bawaan Larateal
 
 - lalu jalankan aplikasi dengan perintah :
-
 ```
 php artisan serve
 ```
