@@ -17,6 +17,17 @@ Larateal merupakan system operasi berbasis web yg di buat dengan firmwork : [Lar
 
 - Upload Modul Sesuai keinginan.
 - Install and uninstall Modul Yg di upload.
+- lock screen dengan pin
+- Ganti logo 
+- Ganti nama aplikasi dan biodata yg lain
+- system user dinamis yang meliputi Hak akses masing-masing level pengguna / user DLL
+- edit dan tambah Manualbook untuk pengguna / user sesuai level
+- maintenance untuk pengguna / user
+- Ubah UI Login 
+- Ubah Warna dan UI dashboard / template admin
+- Tambah Sidebar costume
+- Upload dan download Public File sejenis Drive tapi bersifat public
+- DLL.
 
 ### NB :
 
@@ -25,8 +36,6 @@ Untuk Versi Local Diatas adalah versi gratis yang hanya bisa di akses pada Url :
 Local : http://localhost:8000 or http://127.0.0.1:8000
 
 Valet : http://LaraTeal_V.1.18.test
-
-#### dan untuk versi Online silahkan Hubungi (chat only) : [Whatsapp](https://wa.me/083136245050)
 
 ### List Modul
 Modul dibagi atas empat class Yaitu :
@@ -60,4 +69,4 @@ php artisan serve
 - Untuk cara pakai via valet silahkan lihat dokumentasi [Disini](https://laravel.com/docs/10.x/valet)
 
 
-
+### Untuk versi Online silahkan Hubungi (chat only) : [Whatsapp](https://wa.me/083136245050)
