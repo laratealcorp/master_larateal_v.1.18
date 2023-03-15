@@ -49,10 +49,10 @@ Valet : http://LaraTeal_V.1.18.test
 ### List Modul
 Modul dibagi atas empat class Yaitu :
 
-- Modul Website [Go Modul](https://github.com/laratealcorp/modul_web)
-- Modul Function [Go Modul](https://github.com/laratealcorp/modul_function)
-- Modul Message [Go Modul](https://github.com/laratealcorp/modul_msg)
-- Modul API [Go Modul](https://github.com/laratealcorp/modul_api)
+- [Modul Website](https://github.com/laratealcorp/modul_web)
+- [Modul Function](https://github.com/laratealcorp/modul_function)
+- [Modul Message](https://github.com/laratealcorp/modul_msg)
+- [Modul API](https://github.com/laratealcorp/modul_api)
 
 ### Cara Pakai Untuk Local
 
