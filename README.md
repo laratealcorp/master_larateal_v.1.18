@@ -11,6 +11,12 @@
 - Hanya akun develope yang automatis meminta PIN setiap login
 - login awal untuk akun super admin ,Username : root ,password : root ,PIN : 0000
 
+firmwork : 
+- https://laravel.com/
+- https://www.jeasyui.com/
+- https://getbootstrap.com/
+- https://fontawesome.com/
+
 ## Tentang LaraTeal V.1.18
 
 Larateal merupakan system operasi berbasis web yg di buat dengan firmwork : [Laravel](https://laravel.com/) Yang dirancang se dinamis mungkin untuk memudahkan membuat aplikasi berbasis web tanpa skill coding, 
