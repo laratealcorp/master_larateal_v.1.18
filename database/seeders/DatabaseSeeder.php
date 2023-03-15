@@ -39,7 +39,7 @@ class DatabaseSeeder extends Seeder
         Inc::create(['id'=>'app_instansi','code'=>'LaraTeal Corp','status'=>'true']);
         Inc::create(['id'=>'app_title','code'=>'--','status'=>'true']);
         Inc::create(['id'=>'app_key','code'=>enkey('cpanel'),'status'=>'true']);
-        Inc::create(['id'=>'app_token','code'=>enkey('1180'),'status'=>'true']);
+        Inc::create(['id'=>'app_token','code'=>base64_encode('1180'),'status'=>'true']);
         Inc::create(['id'=>'show_analog','code'=>'','status'=>'true']);
         Inc::create(['id'=>'show_digital','code'=>'','status'=>'true']);
         Inc::create(['id'=>'web_status','code'=>'','status'=>'false']);
