@@ -56,18 +56,23 @@ Modul dibagi atas empat class Yaitu :
 
 ### Cara Pakai Untuk Local
 NB :
-* Pastikan Komputer anda sudah terinstall
-- Xampp atau sejenisnya yang bisa mengakses database mysql
+- Pastikan Komputer anda sudah terinstall :
+- 1. Xampp atau sejenisnya yang bisa mengakses database mysql
+- 2. Composer [More..](https://getcomposer.org/)
+
+Cara Install :
 - Download File dan Extract
 - Buat database mysql 
-- cari file .env lalu edit
+- cari file env.zip lalu extract here
+- cari file hasil extract .env lalu edit
 - isi kan informasi database yg dibuat sebelumnya pada kolom database pada .env
 - Buka Cmd Dan arahkan ke Folder Master larateal_v.1.18 yang telah di download
+- atau klick kanang pada folder file master hasil extract Tekan : `Ctrl` + `Right Click`  Lalu Pilih Command Here
 - Lalu ketikkan Perintah :
 ```
 composer install
 ```
-- pastikan composer sudah terinstall pada komputer anda 
+- pastikan [composer](https://getcomposer.org/) sudah terinstall pada komputer anda 
 - lalu ketikkan :
 ```
 php artisan migrate:fresh --seed
