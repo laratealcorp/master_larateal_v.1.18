@@ -56,8 +56,8 @@ Modul dibagi atas empat class Yaitu :
 
 ### Cara Pakai Untuk Local
 NB :
-- Pastikan Komputer anda sudah terinstall
---- Xampp atau sejenisnya yang bisa mengakses database mysql
+* Pastikan Komputer anda sudah terinstall
+- Xampp atau sejenisnya yang bisa mengakses database mysql
 - Download File dan Extract
 - Buat database mysql 
 - cari file .env lalu edit
