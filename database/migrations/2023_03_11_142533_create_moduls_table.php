@@ -19,6 +19,8 @@ class CreateModulsTable extends Migration
             $table->enum('status', ['false', 'true']);
             $table->enum('class', ['fc', 'web', 'msg', 'api']);
             $table->string('name');
+            $table->string('label')->nullable();
+            $table->string('icon')->nullable();
             $table->enum('model', ['false', 'true']);
             $table->enum('view', ['false', 'true']);
             $table->enum('control', ['false', 'true']);
