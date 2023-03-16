@@ -63,6 +63,11 @@ Modul dibagi atas empat class Yaitu :
 - Buka Cmd Dan arahkan ke Folder Master larateal_v.1.18 yang telah di download
 - Lalu ketikkan Perintah :
 ```
+composer install
+```
+- pastikan composer sudah terinstall pada komputer anda 
+- lalu ketikkan :
+```
 php artisan migrate:fresh --seed
 ```
 untuk Mengisi database bawaan Larateal
