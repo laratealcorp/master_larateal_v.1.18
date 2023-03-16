@@ -25,7 +25,7 @@ class DatabaseSeeder extends Seeder
         $app_desk = '<div style="margin: 0px; padding: 0px;"><pre style="margin: 0px; padding: 0px;">Menuju Website Dengan cara<br>Scan QRcode Pada Kolom Qrcode<br>Atau Menuju Link Dengan Cara</pre><pre style="margin: 0px; padding: 0px;">Klick Qrcode</pre></div>';
         $play_desk = '<pre>Download App Android Dengan cara<br>Scan QRcode Pada Kolom Qrcode<br>Atau Menuju Link Dengan Cara <br>Klick Qrcode</pre>';
         // INC SEED START
-        Inc::create(['id'=>'tema','code'=>'dark','status'=>'true']);
+        Inc::create(['id'=>'tema','code'=>'light','status'=>'true']);
         Inc::create(['id'=>'login_wave','code'=>'','status'=>'true']);
         Inc::create(['id'=>'login_desk','code'=>'<p><br></p>','status'=>'true']);
         Inc::create(['id'=>'app_start','code'=>date("Y").','.time(),'status'=>'true']);
@@ -47,20 +47,20 @@ class DatabaseSeeder extends Seeder
         Inc::create(['id'=>'play_desk','code'=>$play_desk,'status'=>'true']);
         Inc::create(['id'=>'play_url','code'=>'https://play.google.com/store/apps','status'=>'true']);
         Inc::create(['id'=>'url_whatsapp','code'=>'https://wa.me/','status'=>'true']);
-        Inc::create(['id'=>'url_facebook','code'=>'','status'=>'true']);
-        Inc::create(['id'=>'url_instagram','code'=>'','status'=>'true']);
-        Inc::create(['id'=>'url_chanel_youtube','code'=>'','status'=>'true']);
+        Inc::create(['id'=>'url_facebook','code'=>'https://github.com/','status'=>'true']);
+        Inc::create(['id'=>'url_instagram','code'=>'https://github.com/','status'=>'true']);
+        Inc::create(['id'=>'url_chanel_youtube','code'=>'https://github.com/','status'=>'true']);
         Inc::create(['id'=>'url_video_youtube','code'=>'','status'=>'true']);
-        Inc::create(['id'=>'url_tiktok','code'=>'','status'=>'true']);
-        Inc::create(['id'=>'url_google_map','code'=>'','status'=>'true']);
+        Inc::create(['id'=>'url_tiktok','code'=>'https://github.com/','status'=>'true']);
+        Inc::create(['id'=>'url_google_map','code'=>'https://github.com/','status'=>'true']);
         Inc::create(['id'=>'maintenance','code'=>'','status'=>'false']);
-        Inc::create(['id'=>'alamat','code'=>'Jl.Bitoa Lama No.25','status'=>'true']);
+        Inc::create(['id'=>'alamat','code'=>'Jl.Nkri , Makassar','status'=>'true']);
         Inc::create(['id'=>'email','code'=>'admin@app.com','status'=>'true']);
         Inc::create(['id'=>'hp','code'=>'0852-0000-0000','status'=>'true']);
         Inc::create(['id'=>'telp','code'=>'(0411)-28071986','status'=>'true']);
         Inc::create(['id'=>'pass_default','code'=>'@123','status'=>'true']);
         Inc::create(['id'=>'level_regist','code'=>'null','status'=>'true']);
-        Inc::create(['id'=>'frame_ui','code'=>'black','status'=>'true']);
+        Inc::create(['id'=>'frame_ui','code'=>'ui-sunny','status'=>'true']);
         Inc::create(['id'=>'slogan','code'=>'--','status'=>'true']);
         Inc::create(['id'=>'new_id','code'=>'','status'=>'true']);
         Inc::create(['id'=>'mbook_status','code'=>'','status'=>'true']);
