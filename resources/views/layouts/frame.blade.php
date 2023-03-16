@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="/css_js/fontawesome-free-6.2.1-web/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="/css_js/easyui/tema/{{inc('frame_ui')}}/easyui.css">
     <link rel="stylesheet" href="/css_js/toastr/toastr.min.css">
+    <link rel="stylesheet" href="/css_js/summernote/summernote-bs4.min.css">
     {{-- <script src="/css_js/easyui/plugins/jquery.datagrid.js"></script> --}}
     <script src="/css_js/easyui/jquery.min.js"></script>
     <script src="/css_js/easyui/jquery.easyui.min.js"></script>
@@ -28,6 +29,7 @@
     <script src="/css_js/toastr/toastr.min.js"></script>
     <script src="/css_js/moment/moment.min.js"></script>
     <script src="/css_js/easyui/datagrid-export.js"></script>
+    <script src="/css_js/summernote/summernote-bs4.min.js"></script>
     <style>
         :root {
         --pa: {{color('pri_a')}};
