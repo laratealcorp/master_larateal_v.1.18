@@ -57,7 +57,7 @@ Modul dibagi atas empat class Yaitu :
 ### Cara Pakai Untuk Local
 NB :
 - Pastikan Komputer anda sudah terinstall :
- 1. Xampp atau sejenisnya yang bisa mengakses database mysql
+ 1. Xampp atau sejenisnya yang bisa mengakses database mysql [More..](https://www.apachefriends.org/download.html)
  2. Composer [More..](https://getcomposer.org/)
 
 Cara Install :
@@ -67,7 +67,7 @@ Cara Install :
 - cari file hasil extract .env lalu edit
 - isi kan informasi database yg dibuat sebelumnya pada kolom database pada .env
 - Buka Cmd Dan arahkan ke Folder Master larateal_v.1.18 yang telah di download
-- atau klick kanang pada folder file master hasil extract Tekan : `Ctrl` + `Right Click`  Lalu Pilih Command Here
+- atau klick kanang pada folder master hasil extract Tekan : `Ctrl` + `Right Click`  Lalu Pilih Command Here
 - Lalu ketikkan Perintah :
 ```
 composer install
