@@ -55,7 +55,9 @@ Modul dibagi atas empat class Yaitu :
 - [Modul API](https://github.com/laratealcorp/modul_api)
 
 ### Cara Pakai Untuk Local
-
+NB :
+- Pastikan Komputer anda sudah terinstall
+--- Xampp atau sejenisnya yang bisa mengakses database mysql
 - Download File dan Extract
 - Buat database mysql 
 - cari file .env lalu edit
