@@ -57,8 +57,8 @@ Modul dibagi atas empat class Yaitu :
 ### Cara Pakai Untuk Local
 NB :
 - Pastikan Komputer anda sudah terinstall :
-- 1. Xampp atau sejenisnya yang bisa mengakses database mysql
-- 2. Composer [More..](https://getcomposer.org/)
+ 1. Xampp atau sejenisnya yang bisa mengakses database mysql
+ 2. Composer [More..](https://getcomposer.org/)
 
 Cara Install :
 - Download File dan Extract
@@ -88,7 +88,7 @@ php artisan serve
 - login awal untuk akun Develop ,Username : cpanel ,password : cpanel ,PIN : 1180
 - login awal untuk akun super admin ,Username : root ,password : root ,PIN : 0000
 - Proses selesai
-- Untuk Modul silahkan memilih modul sesuai keinginan pada list modul di atas
+- Untuk Modul silahkan memilih modul sesuai keinginan pada list modul [Disini](https://github.com/laratealcorp/master_larateal_v.1.18/blob/main/README.md#list-modul)
 - Untuk cara pakai via valet silahkan lihat dokumentasi [Disini](https://laravel.com/docs/10.x/valet)
 
 
