@@ -15,9 +15,6 @@
         <a href="" class="text-{{(inc('tema')=='dark')?'white':'dark';}}"><i class="fab fa-mix mr-2 mb-3"></i><strong><small>MODUL {{($class=='fc')?'FUNCTION':strtoupper($class)}} V.{{VERSION}}</small></strong></a>
     </center>
     <div class="my-2 table-responsive">
-        {{-- {{base77();}} --}}
-        {{-- {{file_encode_larateal(DIR.'mod/modul_pesan_001.bin')}} --}}
-        {{-- {{file_decode_larateal_28071986(DIR.'mod/modul_pesan_001.bin')}} --}}
         <center>
             <table id="dguser" toolbar="#toolbarCustomer" class="easyui-datagrid" singleSelect="true" style="width: 100%;" fitColumns="true" rowNumbers="true" pagination="true" url="/modul{{($class)?'/'.$class:'';}}" pageSize="25" pageList="[10,25,50,100,200]">
                 <thead>
