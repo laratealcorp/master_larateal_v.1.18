@@ -17,6 +17,7 @@ firmwork :
 - https://getbootstrap.com/
 - https://fontawesome.com/
 - https://adminlte.io/themes/v3/
+- https://jquery.com/
 
 ## Tentang LaraTeal V.1.18
 
