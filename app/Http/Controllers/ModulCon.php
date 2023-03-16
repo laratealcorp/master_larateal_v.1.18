@@ -56,8 +56,8 @@ class ModulCon extends Controller
             echo json_encode(['errorMsg' => 'Id salah']);
             exit();
         }
-        $ext = get_row('moduls',['id'=>$id])->class;
-        if($ext=='web'){
+        $m = get_row('moduls',['id'=>$id]);
+        if($m->class=='web'){
             $x=num_rows('moduls',['class'=>'web','status'=>'true']);
             if($x>0){
                 echo json_encode(['errorMsg' => 'Modul web hanya dapat di install 1']);
@@ -75,23 +75,23 @@ class ModulCon extends Controller
         $zip_view = DIR_MODUL . $id.'/view.zip';
         $zip_dir = DIR_MODUL . $id.'/public.zip';
         if(file_exists($route)){
-            rph_de(ROUTE_WEB,$route);
+            rph(ROUTE_WEB,$route);
             if(file_exists($constant)){
-                rph_de(CONSTANT,$constant);
-                rpd_de(CONSTANT,$constant,'//DATA');
+                rph(CONSTANT,$constant);
+                rpd(CONSTANT,$constant,'//DATA');
             }
-            if(rpd_de(ROUTE_WEB,$route,'//DATA')){
+            if(rpd(ROUTE_WEB,$route,'//DATA')){
                 if(file_exists($zip_cont)){
-                    zip_de_extr($zip_cont,DIR_CON);
+                    zip_extr($zip_cont,DIR_CON);
                 }
                 if(file_exists($zip_mod)){
-                    zip_de_extr($zip_mod,DIR_MOD);
+                    zip_extr($zip_mod,DIR_MOD);
                 }
                 if(file_exists($zip_view)){
-                    zip_de_extr($zip_view,DIR_VIEW.$id);
+                    zip_extr($zip_view,DIR_VIEW.$id);
                 }
                 if(file_exists($zip_dir)){
-                    zip_de_extr($zip_dir,DIR.$id);
+                    zip_extr($zip_dir,DIR.$id);
                 }
                 update('moduls',['status'=>'true'],['id'=>$id]);
             }else{
@@ -116,18 +116,19 @@ class ModulCon extends Controller
             echo json_encode(['errorMsg' => 'Modul sudah Di Uninstall']);
             exit();
         }
+        $m = get_row('moduls',['id'=>$id]);
         $route = DIR_MODUL . $id.'/route.txt';
         if(!file_exists($route)){
             echo json_encode(['errorMsg' => 'Modul Error']);
             exit();
         }
-        if(!rph_de(ROUTE_WEB,$route)){
+        if(!rph(ROUTE_WEB,$route)){
             echo json_encode(['errorMsg' => 'Route Error']);
             exit();
         }
         $constant = DIR_MODUL . $id.'/constant.txt';
         if(file_exists($constant)){
-            rph_de(CONSTANT,$constant);
+            rph(CONSTANT,$constant);
         }
         if(update('moduls',['status'=>'false'],['id'=>$id])){
             if(file_exists(DIR_CON.'C_'.$id.'.php')){
@@ -139,8 +140,9 @@ class ModulCon extends Controller
             if(file_exists(DIR_VIEW.$id)){
                 File::deleteDirectory(DIR_VIEW.$id);
             }
+            delete('sidebars',['m'=>$id]);
+            update('incs',['status'=>'false'],['id'=>'web_status']);
         }
-        delete('sidebars',['m'=>$id]);
         echo json_encode(['success' => true]);
     }
     public function upload(){
@@ -214,13 +216,13 @@ class ModulCon extends Controller
             echo json_encode(['errorMsg' => 'Modul Error']);
             exit();
         }
-        if(!rph_de(ROUTE_WEB,$route)){
+        if(!rph(ROUTE_WEB,$route)){
             echo json_encode(['errorMsg' => 'Route Error']);
             exit();
         }
         $constant = DIR_MODUL . $id.'/constant.txt';
         if(file_exists($constant)){
-            rph_de(CONSTANT,$constant);
+            rph(CONSTANT,$constant);
         }
         if(delete('moduls',['id'=>$id])){
             if(file_exists(DIR_CON.'C_'.$id.'.php')){
@@ -240,7 +242,15 @@ class ModulCon extends Controller
             }
             File::deleteDirectory(DIR_MODUL.$id);
         }
-        Schema::dropIfExists('mod_'.$id);
+        if (Schema::hasTable('tb_'.$id)){
+            $mig = num_and_get('tb_'.$id);
+            if($mig){
+                foreach($mig as $g){
+                    Schema::dropIfExists($g->id);
+                }
+            }
+            Schema::dropIfExists('tb_'.$id);
+        }
         $this->del_sys($id);
         echo json_encode(['success' => true]);
     }
