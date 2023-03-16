@@ -77,7 +77,7 @@ composer install
 ```
 php artisan migrate:fresh --seed
 ```
-untuk Mengisi database bawaan Larateal
+untuk Mengisi database bawaan
 
 - lalu jalankan aplikasi dengan perintah :
 ```
