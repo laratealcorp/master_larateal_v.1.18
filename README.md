@@ -51,7 +51,7 @@ Valet : http://LaraTeal_V.1.18.test
 Modul dibagi atas empat class Yaitu :
 
 - [Modul Website](https://github.com/laratealcorp/modul_web)
-- [Modul Pack / Function](https://github.com/laratealcorp/modul_function)
+- [Modul Pack / Fungsi](https://github.com/laratealcorp/modul_function)
 - [Modul Message](https://github.com/laratealcorp/modul_msg)
 - [Modul API](https://github.com/laratealcorp/modul_api)
 
